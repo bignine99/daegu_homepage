@@ -1,4 +1,4 @@
-import React from "react";
+
 import { SocialIcons } from "../components/ui/social-icons";
 
 export default function Contact() {

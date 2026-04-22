@@ -87,7 +87,7 @@ export function DemoOne() {
   )
 }
 
-function FeatureCard({ icon, title, className = "", delay = 0 }) {
+function FeatureCard({ icon, title, className = "", delay = 0 }: { icon: React.ReactNode, title: string, className?: string, delay?: number }) {
   return (
     <motion.div
       initial={{ opacity: 0, scale: 0.9 }}

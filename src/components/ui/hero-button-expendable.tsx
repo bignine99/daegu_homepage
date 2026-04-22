@@ -84,7 +84,7 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.1 }}
             className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight text-zinc-900 dark:text-zinc-50 max-w-4xl"
-            style={{ wordKeep: "keep-all" }}
+            style={{ wordBreak: "keep-all" }}
           >
             데이터와 지능이 만날 때 <br className="hidden sm:block" />
             <span className="text-transparent bg-clip-text bg-gradient-to-br from-primary to-orange-400 dark:from-primary dark:to-orange-400 leading-tight block mt-2">

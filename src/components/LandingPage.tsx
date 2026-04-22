@@ -1,7 +1,4 @@
-import { Canvas } from "@react-three/fiber"
-import { Environment, Float, OrthographicCamera } from "@react-three/drei"
-import { ShaderPlane, EnergyRing } from "./ui/background-paper-shaders"
-import { motion } from "framer-motion"
+
 import Hero from "./ui/hero-button-expendable"
 
 export default function LandingPage() {

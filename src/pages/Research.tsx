@@ -1,4 +1,4 @@
-import React from "react";
+
 
 const publishedPapers = [
   { title: "A Machine Learning Approach for Factor Analysis and Scenario-Based Prediction of Construction Accidents", authors: "Ki-nam Kim, Dae-gu Cho, and Min-jae Lee", journal: "Buildings 15, no. 23 (2025): 4343, https://doi.org/10.3390/buildings15234343", year: "2025" },
