@@ -1,0 +1,1441 @@
+1 
+ 
+이력서 (Curriculum Vitae) 
+ 
+성명: 
+조 대 구 (趙大九, Daegu Cho) 
+ 
+생년월일: 
+1971년 9월 10일 
+집주소: 
+서울특별시 성북구 정릉 1동 태영@ 103-1307, 02719 
+회사주소 
+서울특별시 노원구 월계로 370 희성프라자 312호, 01905 
+E-MAIL: 
+bignine99@naver.com, bignine99@hotmail.com 
+전화번호: 
+010-4160-1876 (Cell), 02-949-9910 (Office), 02-949-9950 (Fax) 
+ 
+ 
+1. 학력 (Formal Education) 
+2009.09  
+Univ. of Wisconsin-Madison, Dept. of Civil & Environmental Engineering, Ph.D.,  
+  
+Major of Construction Management and Building Information Modeling 
+2000.02  
+인하 대학교 공과대학 건축공학과 M.S. 건설관리 전공 
+1998.02  
+인하 대학교 공과대학 건축공학과 B.S.  
+1990.02  
+대원외국어 고등학교 중국어과 
+ 
+ 
+2. 실무 경력 (Details of Employment) 
+2016.02- 현재 
+주식회사나인티나인, 대표이사 
+- 
+연구과제개발 및 수행 
+- 
+EVMS Advanced Software Program Development 
+- 
+BIM Modeling and Consulting Service 
+ 
+2012.09- 2016.05 연우테크놀러지, 기술연구소장, 이사 
+- 
+연구과제개발 및 수행 
+- 
+Mobile 기반 3D 협업시스템 개발, BIM기반 공정-원가 통합관리시스템 개발, 3차원 결로분석 
+시스템 개발 등 다양한 연구개발 
+- 
+주요 연구과제: BIM 기반 Facility Management System 개발 / 수요자 맞춤형 조립식주택 
+기술개발 및 실증단지 구축 
+- 
+BIM 프로젝트: 경상대학교병원건립공사 BIM 기술 용역 수행 
+ 
+2013.06- 현재 
+GloTech 소프트컨설팅, BIM 연구개발 및 경영컨설팅 
+- 
+BIM 기술지원 및 경영 컨설팅 
+- 
+BIM 기반 견적시스템 개발 컨설팅 
+ 
+2013.12- 2014.02 버츄얼빌더스㈜, abimo 사업그룹, 컨설팅 
+- 
+abimo 사업전략 기획 및 영업 컨설팅 
+- 
+BIM 사전 품질 평가도구 개발 
+ 
+2010.12- 2012.12 고려대학교, 건축사회환경공학부, 공학기술연구소 연구교수  
+2 
+ 
+- 
+강의: Advanced Information Tech., Cutting Edge Sensor Tech., Construction Schedule Management  
+- 
+연구과제수행: 첨단센서 기반의 대형 건설현장 실시간 시공관리 기술 개발 
+- 
+논문지도 및 논문평가 
+ 
+2010.04-2010.11 ㈜무영AMCES 건축사 사무소, 기술연구소 소장 
+- 
+무영 AMCES BIM 도입 (M.Y. AMECS Moving Forward to BIM 2010) 추진 
+- 
+서울 망우 철도부지 활용 보금자리 주택 BIM 설계 자문, ArchiCAD 기반 
+- 
+연구과제: BIM 기준서 개발, BIM Library Contents 개발, BIM 기반 원천정보관리기술개발 
+- 
+건설사업관리업무수행 분석, 현장 업무 체계화 방안 
+- 
+Green Bd. & LEED AP 친환경 전략 사업 추진 
+- 
+해외사업관련 RFI, Contract Documents 작성 
+ 
+ 
+2004.01-2009.05 Teaching assistant & lecturer for undergraduate level 
+- 
+CEE 498: Construction Management (2004-08, Spring, Summer, and Fall Semester) 
+- 
+CEE 596: Constructability Analysis (2004-09, Spring, Summer, and Fall Semester) 
+- 
+CEE 578: Senior Level Capstone Design (2004-08, Fall Semester) 
+ 
+2006.05-2006.08 Summer Engineer Intern 2006, Marshall Erdman & Associates Inc.  
+- 
+Planning of a new clinic center project located in Urbana, IL 
+- 
+Reviewed and analyzed cost data and developed project numbering system based on MasterFormat 95 
+- 
+Developed schedule with MS Project 
+- 
+Reformatted technical guidelines with Standard Specifications 
+ 
+2005.05-2005.08 Summer Engineer Intern 2005, Marshall Erdman & Associates Inc.  
+- 
+A new hospital construction project located in Madison, WI 
+- 
+Assisted engineers and technicians with engineering surveys 
+- 
+Site inspection and assisted performance control 
+ 
+2000.03-2001.12 한국건설관리학회(KICEM), 사무장 
+- 
+학회 창립 활동 및 학회 활동 지원 
+- 
+연구활동지원: 교육 및 연구 개발, 외주 연구프로젝트 주관 
+- 
+학술교류활동지원: 학회지 및 논문집 편찬 발간 사업, 학술교류 및 학술발표대회 주관 
+- 
+대외활동지원: 회원관리, 이사회 및 지회 활동 보조, CM Forum 
+- 
+기타업무: 회원관리, 재무관리, 기타 건설관련 행사 주관 
+ 
+1991.06-1993.11 육군공병, 1116 야공단, 보조감독관 
+- 
+보조감독관, 군인아파트 신축 건설, 부산 해운대구 수영동 
+- 
+보조감독관, 1116 야공단 부대이전 공사 
+- 
+보조감독관, 11군단 BOQ 신축건설 
+ 
+ 
+3. 학위 논문 (Dissertation) 
+2009.12 
+Ph. D. Thesis: “Construction Information Database Framework (CIDF) for Integrated Cost, 
+Schedule, and Performance Control”, UW-Madison, Dept. Civil & Environmental Engr.  
+2000.03               M.S. Thesis: “국내건설사업관리 대가기준 적용에 관한 연구”, 인하대학교, 건축공학과 
+ 
+ 
+3 
+ 
+4. 국내·외 논문 (Published Papers) 
+Daegu Cho, Myungdo Lee and Jihye Shin, Development of Cost and Schedule Data Integration Algorithm 
+Based on Big Data Technology, Appl. Sci. Special Issue BIM and Its Integration with Emerging Technologies, 
+2020, 10(24), 8917; https://doi.org/10.3390/app10248917,  ISSN: 2076-3417 
+조대구, 이명도, “비용-일정 정보통합을 위한 빅데이터 기반 다차원-다수준 Data Cube 알고리즘” 
+대한건축학회연합논문집, 제21 권 제 6 호(통권 94 호), 109-117. 
+Hong, S.W., Ahn, H.j., Jung, H.G., Cho, D.G., “Input information system building for BIM-Based simulation 
+evaluation of apartment surface condensation.” International J. of Sustainable Building Technology and Urban 
+Development, Vol. 6, No. 3, 188–197. 2015.09, ISSN: 2093-761X (Print) 2093-7628 (Online). 
+Oh, H.O., Cho, D.G., Jang, H.I., Hong, S.W., and Lee, M.S., “Prototype Development for BIM based Thermal 
+Insulation and Condensation Performance Evaluation of Apartment Housings.” Architectural Research, Vol.17, 
+No.2, pp. 75-81., 2015.06., Corresponding Author. 
+Cho, D.G., Cho, H.H., and Kim, D.W., “Automatic Data Processing System for Integrated Cost and Schedule 
+Control of Excavation Works in NATM Tunnels.” J. of Civil Engineering and Management, Vol. 20, No.1, pp 
+132-141, 2014.03. (ISSN 1392-2730 print / ISSN 1822-3605 online) IF (2012) = 2.016. 
+Cho, D.G., Russell, J.S., and Choi, J.S., (2013) “Database Framework for Cost, Schedule, and Performance Data 
+Integration.” J. of Computing on Civil Engr. ASCE, Vol.27, No.6, pp.719-731, 2013.1.( ISSN: 0887-3801) 
+신지혜, 조대구, 김형도 “BIM라이브러리를 활용한 에너지분석 속성체계 구축: Development of Library 
+Property Framework for Energy Analysis Using BIM.” 2012 추계학술발표대회, (사)한국건설IT융합학회, 
+Coex, 2012.12. 
+권재범, 김춘학, 김창원, 조대구, 조훈희 “다목적 복합센서를 이용한 건설기계 성과율 측정 알고리즘 
+개발: Development of Algorithm for Measuring Performance Rate of Construction Equipment Using a 
+Multipurpose Composite Sensor.” 2012 추계학술발표대회 및 건축시공기술대전, 한국건축시공학회, 
+한양대학교 안산캠퍼스, 2012.11. 
+Oh, H.O., Kim, J.H., Lee, J.H., and Cho, D.G., “Development of BIM Based Input-Output Module for 
+Structural Design.” 2nd International Conf. on Computational Design in Engineering (CODE2012), Current and 
+Future Directions in Engineering with Computers, Computational Structural Engineering Institute of Korea 
+(COSEIK), Jeju Phoenix Island Hotel, 2012.11. 
+Cho.D.G., Cho, N.S., Cho.H.H., and Kang, K.I. (2012). “Development of a Holistic System Library for 
+Standard Types of NATM Tunnel Construction.” Proceeding of ISARC2012 Conf., Eindhoven, Netherlands, 
+2012.06.26-29.  
+Won, M.K., Cho.D.G., Cho.H.H., Kang, K.I., and Heo, I.W. (2012). “Efficient Processing Algorithm of Large 
+3D Scan Data for NATM Tunnel.” Proceeding of 2012 ASCE International Conf. on Computing in Civil 
+Engineering, Clearwater Beach, FL, USA, 2012.06.17-20. 
+조남석, 김창원, 조대구, 조훈희, 강경인 “대형 건설프로젝트 현장관리를 위한 복합센서의 필수기능 
+분석: Analysis of Essential Functions of Composite Sensor for the Ground Work of a Large Construction 
+Project.” 2012 춘계학술발표대회 논문집, 전북대학교, 2012.05. 
+권재범, 조대구, 조훈희, 강경인 “11축 복합센서를 통한 건설기계 효율성 측정 자동화 방안: Automatic 
+Measurement of Construction Equipment Efficiency Using a 11-Axis Composite Sensor.” 2012 
+춘계학술발표대회 논문집, 우수논문, 전북대학교, 2012.05. 
+김인한, 최중식, 조대구, 추승연, 조근하 "초고층 건축물의 개방형 BIM 적용을 위한 정보환경 구축 
+기초연구: A Basic Study on the Establishment of Open BIM Environment for Super-tall Buildings.", 
+대한건축학회 논문집, 제28권 2호, pp. 13-20, 2012.02., 2012.02 
+4 
+ 
+원명균, 김창원, 조대구, 조훈희, 강경인 “터널공사에서 3차원 레이저 스캔을 활용한 데이터 처리 고속화 
+알고리즘: Rapid Data-Processing Algorithm of a 3D Laser Scanner on Tunneling Work.”, 
+한국건설IT융합학회 학술발표대회 논문집, 보광휘닉스파크 한화콘도, pp.103-104, 2011.11. 
+조대구, 김대원, 조훈희, 김창원 “첨단센서 및 IT융합을 통한 대형건설현장 실시간 시공관리 기술개발: 
+Cutting-edge Sensors and Information Technologies Integrated Real-time Construction Management System 
+For Large Construction Projects.”, 한국건설관리학회 학술발표대회 논문집, 초청발표논문, 연세대학교, 
+pp.31-32, 2011.11. 
+맹준철, 조훈희, 강경인, 조대구 “대형공사 기계화 시공 공정관리 의사결정 모델 개발: Development of 
+Mechanized Construction Progress Decision-making Model for Large Construction Projects.”, 
+한국건설관리학회 학술발표대회 논문집, 연세대학교, pp.199-200, 2011.11. 
+조대구, 류범기, 고영환, 이현수 "효율적인 CM업무를 위한 파일 중심 정보 교환 구조" 2010 
+한국건설관리학회 학술발표대회 논문집, 인천대학교, 2010.11.5. 
+조대구, 류범기, 고영환, 이현수 "BIM 기반 4D 및 5D 구현을 위한 제반 환경" 2010 한국건설관리학회 
+학술발표대회 논문집, 인천대학교, 2010.11. 
+조대구, 고영환, 김인한 "초고층 건축 개방형 BIM 기준 연구" 2010대한건축학회 학술발표대회 논문집, 
+초고층복합사업단 특별세션, 청주대학교, 2010.10.23. 
+조대구, 고영환, 김인한 "BIM 라이브러리 및 컨텐츠 교환 체계 연구" 2010대한건축학회 학술발표대회 
+논문집, 초고층복합사업단 특별세션, 청주대학교, 2010.10.23. 
+조대구, 김영석, “국내 건설사업관리대가기준 적용에 관한 연구: A Study on the Application of Domestic 
+Construction Management Payment”, 대한건축학회 논문집, 제 16권 3호, pp. 69-76, 2000.3. 
+ 
+ 
+5. 기고문 외 보고서 (Technical Paper and Report) 
+조대구 “개방형 BIM-COBie 기반 건축물 유지관리 건설정보유통체계 개발지침” 객원연구원 
+연구보고서, 2019.09.(예정) 
+조대구 “개방형 BIM 기반의 기존건축물 유지관리 기반기술 개발” 객원연구원 연구보고서, 
+2018.10. 
+NCS기반 학습모듈 개발, 건설공사공정관리, 공정관리를 위한 조직구성, 2016년도 NCS 학습모듈 
+개발사업, ISBN: 979-11-339-3493-5 
+NCS기반 학습모듈 개발, 건설공사공정관리, 공정관련 교육 실행, 2016년도 NCS 학습모듈 개발사업, 
+ISBN: 979-11-339-3502-4 
+NCS기반 학습모듈 개발, 조적미장시공, 조적미장공사 시공계획 수립, 2015년도 NCS 학습모듈 
+개발사업, ISBN: 979-11-5940-929-5 
+NCS기반 학습모듈 개발, 방수시공, 방수시공 계획 수립, 2015년도 NCS 학습모듈 개발사업, ISBN: 979-
+11-5940-918-9 
+5 
+ 
+SH 공사 도시연구소, “BIM 기반 공동주책 통합형 정보모델 수립에 관한 연구 – 단위세대 원가분석모델 
+수립을 중심으로”, 보고서 자문위원, 2014.12.  
+조대구 “첨단 IT기술을 활용한 도시시설물 관리기술 개발” 객원연구원 연구보고서, 2013.10. 
+조훈희, 조대구 “Construction IT & BIM Forum 2012” The BIM, Gradual diffusion of BIM requirements, 
+Summer 2012.  
+조대구 “전문서적소개: Integrated Practice in Architecture: Mastering Design-Building, Fast-Track, and 
+Building Information Modeling.” 한국건설관리학회, 건설관리, 제 12권 제6호, 2011.12. 
+이재욱, 신규철, 조대구, 신태홍, 이민재, 이준복  “2011 정기학술발표대회 Track II 건설정보화 및 BIM” 
+한국건설관리학회 학회지, 건설관리, 2011.12. 특집기사, pp. 11 – 18. 
+조대구 "첨단센서 및 IT 기술 융복합을 통한 대형공사관리 효율화 방안" 한국도로학회, 도로학회지, 
+제13권 제2호, 2011.06. 
+조대구 "Moving Forward to BIM for Specialty Contractors: 전문건설업체를 위한 BIM 추진 방향" 
+(사)한국건축시공학회, 건축시공, 제11권 제2호, 2011.04.  
+Cho, D.G., Lee, S.W., Kim, J.H., “Database Analysis for Sustainable Development of Tandem Co.” Term 
+Project Report, BS 703 Qualitative and Quantitative Analysis Methods for Quality Improvement, 2005 Fall, 
+46pgs. 
+인천발전연구원 “국내건설계약 원가계산 표준에 관한 연구”, 인천시발전연구원 연구과제, 1999.12. 
+인천대학교 외 “군공사 표준공기산정 연구보고서” 국방부 공동 수행 연구보고서, 이찬식, 신종현, 
+서상욱 외, 1998.12. 
+ 
+ 
+6. 연구수행 실적 (Research Completed and in Progress) 
+Project Name: _ 주거환경연구사업 
+ 
+ 
+모듈러 건축 중고층화 및 생산성 향상 기술 개발 
+Developer: 
+국토교통과학기술진흥원 
+Project Detail: 
+1. 중고층 모듈러 실증단지 구축을 위한 프로콘 운영 및 매뉴얼 개발 
+2. 모듈러 공법 프로콘 업무 프로세스 구축 
+Position: 
+나인티나인(공동연구기관) 연구책임자 
+Start / End Date: 2020.01 – 2021.12  
+Amount: 
+124,000,000 (원) 
+ 
+ 
+Project Name: _ 국토교통기술촉진연구 사업(사회이슈해결) 
+ 
+ 
+건설산업 데이터베이스 인프라 확장을 위한 빅데이터 마이닝 사업화 기술 개발 
+Developer: 
+국토교통과학기술진흥원 
+Project Detail: 
+1. 건설사업관리 빅데이터 마이닝 플랫폼 기술 개발 
+2. 건설사업관리 DB 구축 
+Position: 
+나인티나인(주관연구기관) 연구책임자 
+Start / End Date: 2019.04 – 2021.12  
+6 
+ 
+Amount: 
+805,000,000 (원) 
+ 
+ 
+Project Name: _ 산학연협력기술개발사업(첫걸음기술개발) 
+ 
+ 
+작업자 동작 감지 정보를 활용한 빅데이터 기반 안전사고 징후 감지기술 개발 
+Developer: 
+중소기업기술정보진흥원 
+Project Detail: 
+1. 작업자 정보 빅데이터 수집 및 정보체계 구축 
+2. 빅데이터 정보의 처리 및 통계 분석 
+Position: 
+나인티나인(주관연구기관) 연구책임자 
+Start / End Date: 2018.12 – 2019.12  
+Amount: 
+133,334,000 (원) 
+ 
+ 
+Project Name: _ 모듈러건축 중고층화 및 생산성 향상기술 개발 
+Developer: 
+국토교통기술연구개발사업 / 국토교통과학기술진흥원 
+Project Detail: 
+1. BIM기반 모듈러건축 설계 시스템 개발 
+2. BIM기반 모듈러건축 공장제작 및 현장시공 시스템 개발 
+Position: 
+책임연구원, 공동연구책임자 
+Start / End Date: 2014.07 – 2020.07 (예정) 
+Amount: 
+공동(연우테크놀러지) 약 950,000,000 (원) 
+ 
+Project Name: _ BIM기반 공동주택 단열결로 해석 시스템 개발 
+Developer: 
+국토교통기술연구개발사업 / 국토교통과학기술진흥원 
+Project Detail: 
+BIM기반 단열결로 해석 정보호환 플랫폼 개발 
+Position: 
+연구책임자, 주간연구기관 
+Start / End Date: 2014.05 – 2016.05 
+Amount: 
+공동(연우테크놀러지) 약 306,000,000 (원) 
+ 
+Project Name: _ 수요자 맞춤형 조립식 주택 기술개발 및 실증단지 구축 
+Developer: 
+국토교통기술연구개발사업 / 국토교통과학기술진흥원 
+Project Detail: 
+1. BIM기반 조립식주택 실증단지 건설 시공성 분석 
+2. LOD 400 수준 시공 BIM 데이터 구축 
+Position: 
+책임연구원, 위탁연구책임자 
+Start / End Date: 2013.12 – 2017.11 (예정) 
+Amount: 
+위탁(연우테크놀러지) 약 50,000,000 (원) 
+ 
+Project Name: _ 해공군 특수시설 시설기준 정립 연구 
+Developer: 
+21세기군사연구소 
+Project Detail: 
+1. 군 특수시설 합리적인 소요면적 산정기준 제시 
+2. 특수시설물 설계기준 제시 
+Position: 
+특급연구원 
+Start / End Date: 2013.09 – 2013.06 
+Amount: 
+동국대학교 약 180,000,000 (원) 
+ 
+7 
+ 
+Project Name: _ BIM 기반 물량산출자동화 프로그램 개발 
+Developer: 
+㈜ 명진소프트컨설팅 
+Project Detail: 
+1. 물량산출을 위한 건설프로젝트 제반사항 분석 
+2. Modeling Tool Add-on Program, Revit-Q 시장진출 전략 
+Position: 
+연구개발기술 자문위원 
+Start / End Date: 2013.05 – 현재 
+ 
+Project Name: _ BIM/GIS 플랫폼 기반 건설공간정보 통합운영 기술개발 
+Developer: 
+한국건설기술연구원 
+Project Detail: 
+1. 도시 및 도로 기반시설의 정의 및 분류 
+2. 정보구축 분류체계를 위한 (교량)사례 분석 
+3. 스마트 도시관리를 위한 요구사항 도출 
+4. 도시 시설물 관리를 위한 정보 컨텐츠 및 템플릿 구축 
+Position: 
+객원연구원 
+Start / End Date: 2013.05 – 2013.10 
+ 
+Project Name: _ 한국건설기술연구원 자체개발 사업: BIM기반의 Facility Management System 개발 
+Developer: 
+한국건설기술연구원 
+Project Detail: 
+1. FMS 시스템 요구사항 개발 
+ 
+ 
+2. BIM 기반 연동 프로세스 개발 
+ 
+ 
+3. BIM 기반 FMS 개발을 위한 Database Framework 및 Database 구축 
+ 
+ 
+4. 시설관리, 이사관리, 자산관리, 에너지관리 시스템 구축  
+Position: 
+연구책임자 
+Start / End Date: 2012.08 – 2012.12 
+Amount: 
+110,000,000 (원) 
+ 
+Project Name: _ 건설기술혁신사업: 첨단센서 기반의 대형 건설현장 실시간 시공관리 기술개발 
+Developer: 
+한국건설교통기술평가원 
+Project Detail: 
+1. 건설자원의 실시간 동적 위치기반 자원관리 기술개발 
+ 
+ 
+2. 구조물 실시간 동적 형상정보를 활용한 구조물관리기술 
+ 
+ 
+3. 건설현장 실시간 자원흐름 및 공정 시각화 기술 개발 
+ 
+ 
+4. 첨단센서 기반의 대형 건설현장 실시간 시공관리 기술 개발 
+ 
+ 
+5. 형상정보 기술과 최적화 방안 개발 
+ 
+ 
+6. 건설현장 실시간 통합관리 시스템 기반의 터널/교량 시공관리 기술 개발 
+Position: 
+연구원 
+Start / End Date: 2010.12 – 2012.11 
+Amount: 
+5,712,370,000 (원) 
+ 
+ 
+Project Name: _ 첨단도시개발사업: 초고층 개방형 BIM 정보환경 기술 개발 
+Developer: 
+한국건설교통기술평가원 
+Project Detail: 
+1. 초고층 복합건축물 적용을 위한 개방형 BIM 표준적용 일반기준서 개발  
+ 
+ 
+2. 초고층 복합건축물 IFD BIM라이브러리 및 컨텐츠 DB구축 
+8 
+ 
+ 
+ 
+3. IFC based BIM 친환경 분석 
+Position: 
+참여기업, 책임연구원 
+Start / End Date: 2010.04 - 2010.11 
+Amount: 
+30,320,000 (원)  
+ 
+Project Name: _ 첨단도시개발사업: 초고층 공사관리를 위한 통합형 원천정보 관리기술 개발 
+Developer: 
+한국건설교통기술평가원 
+Project Detail: 
+1. 공사관리를 위한 필수정보 정의 및 BIM 기반 공사관리 정보Modeling 
+ 
+ 
+2. 생애주기 단계별 BIM Data 생성 프로세스 Model 개발 
+ 
+ 
+3. 공사관리 필수정보 추출 프로세스 정립 및 전산도구 개발 사례적용 
+Position: 
+참여기업, 책임연구원 
+Start / End Date: 2010.04 - 2010.11 
+Amount: 
+30,000,000 (원) 
+ 
+ 
+7. 초청 강연 (Representative Invited Presentations) 
+건설산업과 리더십, 한양대학교 개발전문가과정, 2014.05.21. 
+기업에서의 성공을 위한 업무효율성 향상 방법론, 세이프CID㈜, 2014.02.03.  
+BIM의 미래가치와 비젼, 한국건설기술연구원, 2013.12.06. 
+Vision 2015 of VirtualBuilders & 소프트웨어 개발정책, 버츄얼빌더스, 2013.12.03. 
+Leadership for Construction Industry, 최고위과정, 중앙대학교, 2013.11.20. 
+Design Dream, 동아대학교, 2013.11.12. 
+리더십과 성공의 조건, (사)한국건설관리학회 연구개발위원회, 2013.03.28. 
+BIM기반 FMS개발, 한국건설기술연구원, 2013.03.19. 
+경상대학교병원건립공사 BIM 수행방안, GS건설, 2013.01.22. 
+미래건설환경과 BIM  패널토론, 빌딩스마트코리아, 2012.11.26. 
+건설사업관리자를 위한 리더십, 무영아멕스건축사사무소, 2012.09.21. 
+Secrets of Success for Construction Students, 인천대학교, 2012.06.08. 
+Session I: Leadership and Performance Improvement, Session II: Secrets of Success, 연우건축구조 기술사 
+사무소, 2012.05.25. 
+첨단센서를 활용한 대형건설현장 실시간 시공관리기술 개발, 한국건설IT융합학회, Construction IT & 
+BIM Forum 2012, 건설회관, 2012.04.19. 
+BIM을 활용한 공정 및 원가 정보 통합관리방안, 포스코건설 초청강연, 2012.02.09. 
+Session I: Leadership and Performance Improvement, Session II: Introduction of BIM, and Session III: 
+Research Methodology in Construction Management and Engineering, 중앙대학교 초청강연, 2011.12.07. 
+9 
+ 
+첨단센서 및 IT 기술융합을 통한 대형건설현장 실시간 시공관리기술 개발: Cutting-edge Sensors and 
+Information Technologies Integrated Real Time Construction Management System for Large Construction 
+Project, 2011 한국건설관리학회 학술발표대회 논문집, Track III: 첨단시공 및 엔지니어링기술, 
+초청논문발표, 2011.11.11. 
+Leadership and Performance Improvement, 미래환경플랜㈜, 2011.06.14. 
+Contents Framework of IFC Library for Multifunctional Analyses of Super-tall Buildings, COEX, Seoul, Korea, 
+2010 CTBID International Workshop, CTBID, 23rd August, 2010. 
+에너지 분석을 위한 IFD Library and Content Framework,인터볼고호텔, buildingSmartKorea, 2010.7.23. 
+BIM을 통한 원가, 공정, 성과 정보 통합관리 방안, 한국건설관리학회, 국내외신진과학자 학술세미나, 
+2010.05.26. 
+초고층 복합건축물 적용을 위한 개방형 BIM 표준적용 일반기준서 및 IFD BIM 라이브러리 컨텐츠 개발, 
+buildingSmartKorea, 경희대학교, 2010.5.10. 
+Moving Forward to BIM 2010, 충남대학교, 2010.05.15. 
+Construction Information Database Framework (CIDF) for Integrated Control and Application to Building 
+Information Modeling (BIM), 한양대, 2009.10.22 / 서울시립대, 2009.10.21 / 인하대, 2009.10.20 / 동국대, 
+2009.10.15. 
+Building Information Modeling for Integrated Cost, Schedule, and Performance Control, Graduate Associates of 
+Dept. CEE at UW-Madison, 2009.08 
+Integrated Building Information Modeling for Cost Estimation (CostWork), Team Project of CEE 698, Dept. of 
+Transportation (DOT), 2006.12 
+Standard Construction Information System for Building Construction Project, Marshall Erdman & Associates 
+Inc. 2006.08 
+Database Analysis for Sustainable Development of Tandem Co.,  Bacom Business Hall, UW-Madison, 2005.12 
+ 
+ 
+8. 학술활동 (Academic and Leadership Activities) 
+2014.05- 
+(사)빌딩스마트협회 건설기술위원회 위원장 
+2014.02- 
+국토교통과학기술진흥원(KAIA), R&D 평가위원 
+2014.02- 
+국토교통과학기술진흥원(KAIA), 건설신기술 심사위원 
+2014.02- 
+중소기업기술정보진흥원(SMTECH), 평가위원 
+2014.02- 
+동국대학교 건축공학과 겸임교수 
+2014.01-현재 
+연구개발위원회 부위원장, 한국건설관리학회 
+2012.01-2013.11. 연구개발위원회 간사, 한국건설관리학회 
+2011.05-2012.12 Library Contents 분과위원회 기술위원, 한국빌딩스마트협회 
+2011.05-2012.03 논문편집위원회 SCIE 추진위원회 부위원장, (사)한국건축시공학회 
+2011.03-현재 
+인하대학교, 이화여자대학교, 동국대학교, 고려대학교, 중앙대학교 겸임교수 
+2011.01-현재 
+시공관리위원회 위원, (사)한국건축시공학회,  
+2010.06 -현재 
+기술이사, 한국빌딩스마트협회 
+10 
+ 
+2011.03- 2008.03 President, Korean Institute of Civil Engineering Association at UW-Madison 
+2011.03-2008.03 원우회 회장, 인하대학교 건축공학과 대학원 
+학회활동 
+사단법인 한국건설관리학회, 정회원 
+ 
+ 
+사단법인 대한건축학회, 정회원 
+ 
+ 
+사단법인 한국빌딩스마트협회, 정회원 기술이사, 위원장 
+ 
+ 
+사단법인 한국건축시공학회, 정회원, 기술이사, 위원장 
+ 
+ 
+Member of American Society of Civil Engineers (ASCE) 
+ 
+ 
+Member of Construction Engineering and Management (CEM) Association of UW-Madison 
+ 
+ 
+9. 기타사항 (Personal Development and Others) 
+2019.11 
+특허출원: 건설 작업자 안전 모니터링 시스템 및 이의 제어 방법, 출원번호: 10-2019-
+0151254, 출원인: ㈜나인티나인, 발명인: 이준성 외 5 인, 2019.11.22 
+2019.11 
+특허출원: 빅데이터 기반 건설사업 정보관리시스템, 출원번호: 10-2019-0139312, 
+출원인: ㈜나인티나인, 발명인: 조대구, 2019.11.04 
+2019.11 
+특허출원: 빅데이터 기반 건설사업 정보관리시스템 이용방법, 출원번호: 10-2019-
+0139313, 출원인: ㈜나인티나인, 발명인: 조대구, 2019.11.04 
+2013.11 
+BIM Awards 건설부문 장려상, 신지혜, 김은정, 손상기, building Smart Korea, 2013.11.26.  
+2012.11 
+ 우수논문상: 권재범, 김춘학, 김창원, 조대구, 조훈희 “다목적 복합센서를 이용한 
+건설기계 성과율 측정 알고리즘 개발: Development of Algorithm for Measuring 
+Performance Rate of Construction Equipment Using a Multipurpose Composite Sensor.” 
+한국건축시공학회 2012 추계학술발표대회 및 건축시공기술대전 
+2012.05 
+ 우수논문상: 권재범, 조대구, 조훈희, 강경인 “11축 복합센서를 통한 건설기계 효율성 
+측정 자동화 방안: Automatic Measurement of Construction Equipment Efficiency Using a 
+11-Axis Composite Sensor.” 한국건축시공학회 2012 춘계학술발표대회 
+2012.04  
+Construction IT & BIM Forum 2012, 조직부위원장, 빌딩스마트협회 
+2012.04 
+특허출원: 복합센서장치 및 시스템 (Integrated Sensor Apparatus and System), 출원번호: 
+10-2012-0035410, 출원인: 주식회사 센서웨이, 발명인: 조대구, 홍원길, 공개번호: 10-
+2013-0113095, 공개일자: 2013.10.15. 
+2011.02  
+우수강의상, 동국대학교, 건설관리II, 38등/1151명 (상위 3.30%) 
+2010.08  
+Web기반 Green BIM System 개발 기술 자문위원, 건설교통기술연구개발사업, 
+ 
+ 
+썬앤라이트 
+2010.05  
+한국건설관리학회 신진과학자 세미나 감사패 
+1998.04  
+건축기사 1급, 98201020113Q, 한국산업인력공단 
+Software 
+Proficiency in Autodesk Revit, Microsoft Office, MS Project, SAP2000, OLAP 
+ 
+ 
+11 
+ 
+10. References 
+인하대학교 건축공학부  김영석교수 (지도교수) 010- 8385-6244  
+youngsuk@inha.ac.kr 
+Univ. Wisc. Madison 
+Jeffrey Russell (Advisor) 0011-608-262-7244 
+russell@engr.wisc.edu 
+서울시립대 건축공학부 구교진교수 
+ 
+011-769-5610 
+ 
+kook@uos.ac.kr 
+경희대학교 건축학부  
+김인한교수  
+ 
+010-9459-0409   
+ihkim@khu.ac.kr 
+아주대학교 건축공학부  신동우교수  
+ 
+011-260-3630 
+ 
+dshin@ajou.ac.kr 
+Univ. Wisc. Madison 
+박재광교수 
+ 
+0011-608-262-7247 
+jkpark@wisc.edu 
+이화여자대 건축학부 
+이준성교수  
+ 
+010-9238-2631   
+jsyi@ewha.ac.kr  
+한양대학교 토목공학부 이태식교수 
+ 
+031-4005-5145  
+cmtsl@hanyang.ac.kr 
+동아대학교 토목공학부 최재호교수 
+ 
+010-9796-9707  
+jeahochoi@dau.ac.kr 
+동국대학교 건축공학부 최종수교수 
+ 
+010-1730-3357  
+jchoi@dongguk.edu 
+Univ. Wisc. Madison 
+Prof. Awad S. Hanna 
+0011-608-263-8903 
+jkpark@wisc.edu 
+12 
+ 
+Appendix I. 강의 경험 (Teaching Experiences) 
+ 
+2019.1 학기 (4 과목) 
+광운대학교, 공정관리 및 실습  / 동국대학교, 창의적 공학설계 / 이화여자대학교 건설원가 관리 및 적산 / 
+중앙대학교 건설대학원 첨단 IT 및 BIM 
+ 
+2018.2 학기 (2 과목) 
+동국대학교, 건축물리모델링 및 유지관리론 / 아주대학교 건설공정관리 및 실습 
+ 
+2018.1 학기 (4 과목) 
+광운대학교, 공정관리 1(계절학기) / 동국대학교, 창의적 공학설계 / 광운대학교, 공정관리 2 / 
+중앙대학교 첨단 IT 및 BIM 
+ 
+2017.2 학기 (6 과목) 
+동국대학교, 건설관리 2 / 인천대학교 건설 사업관리 / 인하공업대학 건설사업관리 (3 과목) / 중앙대학교 
+대학원 건설위험관리 
+ 
+2017.1 학기 (2 과목) 
+동국대학교, 창의적 공학설계  
+ 
+2016.2 학기 (4 과목) 
+동국대학교, 건설관리 2 / 동국대학교 건설 IT 및 SW 기술개발 / 인하대학교 건설사업관리 / 인하대학교 
+대학원 첨단 IT 및 BIM 
+ 
+이상 강의평가 결과 생략 
+ 
+2016.1학기 
+ 
+1. 고려대학교, 학부영어강의, ACEE443 Construction Planning and Schedule for Advanced CM (3학점) 
+학수번호 
+수강인원 
+평가 
+공통평균 
+외국어평균 
+전체평균 
+ACEE443 
+26 
+5.38 
+4.31  
+4.40 
+4.33 
+ 
+2. 동국대학교, 학부영어강의, ARC2013-01 창의적공학설계  (3학점) 
+학수번호 
+수강인원 
+평가점수 
+전체순위 
+전체평균점수 
+전체표준편차 
+ARC2013-01 
+20명 
+173.50 
+328/686  
+170.9 
+13.76 
+3. 인천대학교, 학부영어강의, Course # IX232, 건축공학전문설계  (3학점) 
+학수번호 
+수강인원 
+응답인원 
+강의평가원점수 
+강의평가표준점수 
+IX232-005 
+8명 
+8명 
+81.8 
+70.72 
+IX232-006 
+6명 
+6명 
+74.5 
+65.94 
+4. 중앙대학교, 대학원영어강의, Course # 01087 Research Methodology in AEC Industry (3학점) 
+학수번호 
+수강인원 
+응답인원 
+강의평가원점수 
+강의평가변환점수 
+01087 
+12명 
+11명 
+95.11 
+81.34 
+ 
+ 
+2015.2학기 
+13 
+ 
+1. 중앙대학교, 특수대학원, 00797-01: 건설경영특론 II (3학점) 
+학수번호 
+수강인원 
+응답인원 
+강의평가원점수 
+강의평가변환점수 
+00797 
+14명 
+11명 
+97.17 
+84.06 
+ 
+2. 동국대학교, 학부영어강의, ARC4051-01 건설관리II  (3학점) 
+학수번호 
+수강인원 
+평가점수 
+전체순위 
+전체평균점수 
+전체표준편차 
+ARC2013-01 
+7명 
+169.34 
+416/729 
+170.2 
+14.49 
+ 
+3. 동국대학교, 학부영어강의, ARC4042-01 건설공정관리  (3학점) 
+학수번호 
+수강인원 
+평가점수 
+전체순위 
+전체평균점수 
+전체표준편차 
+ARC2013-01 
+9명 
+167.70 
+416/729 
+170.2 
+14.49 
+ 
+ 
+ 
+2014.2학기 
+1. 중앙대학교, 특수대학원, 00797-01: 건설경영특론 II (3학점) 
+학수번호 
+수강인원 
+응답인원 
+강의평가원점수 
+강의평가변환점수 
+00797 
+14명 
+11명 
+97.17 
+84.06 
+ 
+2. 동국대학교, 학부영어강의, ARC4051-01 건설관리II  (3학점) 
+학수번호 
+수강인원 
+평가점수 
+전체순위 
+전체평균점수 
+전체표준편차 
+ARC2013-01 
+15명 
+160.68 
+542/729 
+168.32 
+15.07 
+ 
+2015.1학기 
+ 
+1. 고려대학교, 학부영어강의, ACEE443 Construction Planning and Schedule for Advanced CM (3학점) 
+학수번호 
+수강인원 
+평가 
+공통평균 
+외국어평균 
+전체평균 
+ACEE443 
+26 
+5.38 
+4.31  
+4.40 
+4.33 
+ 
+2. 동국대학교, 학부영어강의, ARC2013-01 창의적공학설계  (3학점) 
+학수번호 
+수강인원 
+평가점수 
+전체순위 
+전체평균점수 
+전체표준편차 
+ARC2013-01 
+10명 
+154.12 
+594/683  
+170.13 
+13.84 
+ 
+ 
+2014.2학기 
+1. 중앙대학교, 특수대학원, 00797-01: 건설경영특론 II (3학점) 
+학수번호 
+수강인원 
+응답인원 
+강의평가원점수 
+강의평가변환점수 
+00797 
+14명 
+11명 
+97.17 
+84.06 
+ 
+2. 동국대학교, 학부영어강의, ARC4051-01 건설관리II  (3학점) 
+학수번호 
+수강인원 
+평가점수 
+전체순위 
+전체평균점수 
+전체표준편차 
+ARC2013-01 
+15명 
+160.68 
+542/729 
+168.32 
+15.07 
+14 
+ 
+ 
+2014.1학기 
+ 
+1. 동국대학교, 학부영어강의, ARC2013-01 창의적공학설계  (3학점) 
+학수번호 
+수강인원 
+평가점수 
+전체순위 
+전체평균점수 
+전체표준편차 
+ARC2013-01 
+29명 
+169.38 
+388/735  
+168.34 
+14.65 
+ 
+2013.2학기 
+1. 중앙대학교, 특수대학원, 00797-01: 건설경영특론 II (3학점) 
+학수번호 
+수강인원 
+응답인원 
+강의평가원점수 
+강의평가변환점수 
+00797 
+14명 
+11명 
+97.17 
+84.06 
+ 
+2. 동국대학교, 학부영어강의, ARC4051-01 건설관리II  (3학점) 
+학수번호 
+수강인원 
+평가점수 
+전체순위 
+전체평균점수 
+전체표준편차 
+ARC2013-01 
+12명 
+164.85 
+417/716 
+166.02 
+12.76 
+ 
+ 
+2013.1학기 
+ 
+1. 고려대학교, 학부영어강의, ACEE443 Construction Planning and Schedule for Advanced CM (3학점) 
+학수번호 
+수강인원 
+평가 
+공통평균 
+외국어평균 
+전체평균 
+ACEE443 
+26 
+5.38 
+4.31  
+4.40 
+4.33 
+ 
+2. 동국대학교, 학부영어강의, ARC2013-01 창의적공학설계  (3학점) 
+학수번호 
+수강인원 
+평가점수 
+전체순위 
+전체평균점수 
+전체표준편차 
+ARC2013-01 
+23명 
+174.65 
+144/713  
+163.0 
+14.17 
+3. 인하대학교, 학부영어강의, Course # IX232, 건축공학전문설계  (3학점) 
+학수번호 
+수강인원 
+응답인원 
+강의평가원점수 
+강의평가표준점수 
+IX232-005 
+8명 
+8명 
+81.8 
+70.72 
+IX232-006 
+6명 
+6명 
+74.5 
+65.94 
+4. 중앙대학교, 대학원영어강의, Course # 01087 Research Methodology in AEC Industry (3학점) 
+학수번호 
+수강인원 
+응답인원 
+강의평가원점수 
+강의평가변환점수 
+01087 
+12명 
+11명 
+95.11 
+81.34 
+ 
+2012.2학기 
+1. 고려대학교, 대학원영어강의, AEC768: 건설코스트계획론 (3학점) 
+학수번호 
+수강인원 
+평가 
+공통평균 
+이론/실습 
+전체평균 
+AEC780 
+13명 
+4.51 
+4.45 
+4.65 
+4.52 
+2. 동국대학교, 학부영어강의, ARC4051-01 건설관리II  (3학점) 
+학수번호 
+수강인원 
+평가점수 
+전체순위 
+전체평균점수 
+전체표준편차 
+ARC2013-01 
+8명 
+167.26 
+371/708 
+166.61 
+13.78 
+15 
+ 
+ 
+2012.1학기 
+ 
+1. 고려대학교, 학부영어강의, ACEE443 Construction Planning and Schedule for Advanced CM (3학점) 
+학수번호 
+수강인원 
+평가 
+공통평균 
+외국어평균 
+전체평균 
+전공지도평
+균 
+AEC780 
+13 
+4.11 / 5.00 
+3.88 / 5.00  
+3.07 / 5.00 
+3.69 / 5.00 
+N/A 
+ 
+2. 고려대학교, 대학원영어강의, AEC767: 건설관리론 (3학점) 
+학수번호 
+수강인원 
+평가 
+공통평균 
+이론/실습 
+AEC780 
+20 
+4.69 / 5.00 
+4.43 / 5.00  
+4.49 / 5.00 
+3. 동국대학교, 학부영어강의, ARC2013-01 창의적공학설계  (3학점) 
+학수번호 
+수강인원 
+평가점수 
+전체순위 
+전체평균점수 
+전체표준편차 
+ARC2013-01 
+72명 
+144.48 
+440/707  
+164.41 
+14.63 
+4. 동국대학교, 학부영어강의, ARC4051-01 건설관리 II  (3학점) 
+학수번호 
+수강인원 
+평가점수 
+전체순위 
+전체평균점수 
+전체표준편차 
+ACE786 
+20명 
+178.41 
+440/707  
+164.41 
+14.63 
+5. 동국대학교, 대학원강의, ARC4016-01 건설정보관리론  (3학점) 
+학수번호 
+수강인원 
+평가점수 
+전체순위 
+ACE786 
+6명 
+192.00 
+N/A(평가인원미달) 
+ 
+2011.2학기 
+ 
+1. 고려대학교, 대학원강의, AEC780: 연구방법론 (3학점) 
+학수번호 
+수강인원 
+평가 
+공통평균 
+AEC780 
+15 
+4.69 / 5.00 
+4.40 / 5.00  
+2. 이화여자대학교, 건축공학과, 영어강의, 건축공학종합설계: Senior Level Capstone Design (3학점) 
+학수번호 
+수강인원 
+공통평가 
+전체평균 
+공과대학평균 
+363882 
+14 
+2.16 / 5.00 
+4.13 / 5.00  
+4.02 / 5.00 
+4. 동국대학교, 영어강의, ARC4051-01 건설관리 II  (3학점) 
+학수번호 
+수강인원 
+평가점수 
+ARC4051-01 
+12명 
+181.53 
+ 
+2011.1학기 
+ 
+1. 고려대학교, 영어강의, ACEE443 Construction Planning and Schedule for Advanced Construction 
+Management (3학점) 
+학수번호 
+수강인원 
+평가 
+공통평균 
+외국어평균 
+전체평균 
+전공지도평
+균 
+ACE443 
+11명 
+4.47 / 5.00 
+4.33 / 5.00  
+4.04 / 5.00 
+4.26 / 5.00 
+3.16 / 5.00 
+2. 이화여자대학교, 대학원강의, G16205: Advanced Construction Information System and BIM, 수강인원: 
+6명 
+16 
+ 
+3. 고려대학교, 대학원강의, AEC786: 초고층 건설관리론 (3학점) 
+학수번호 
+수강인원 
+공통평가 
+실습평가 
+대학원공통평균 
+대학원실습평균 
+ACE786 
+8명 
+4.75 / 5.00 
+4.82 / 5.00  
+4.40 / 5.00 
+4.46 / 5.00 
+ 
+4. 인하대학교, 대학원강의/ 영어강의, KM735-001: 원가관리론 (3학점) 
+학수번호 
+과목명 
+참여율 
+교수방법 
+학습성취 
+강의전반 
+표준점수 
+KM735 
+원가관리론 
+80.0% 
+94.5 
+93.8 
+93.8 
+71.51 
+ 
+2010.2학기 
+1. 동국대학교, 영어강의, ARC4051-01 건설관리 II  (3학점) 
+수강인원: 16 
+평가인원: 16 
+응답률: 81.25% 평가점수 194.4 평가점수(보정) 186.76 
+비전임 전체순위: 24등/684명 (상위 3.50%) 
+전체 순위: 38등/1151명 (상위 3.30%) 
+인원 
+평가점수 (보정) 
+전체순위 
+전체 평균점수 
+전체 표준편차 
+684명 (비전임) 
+186.76 / 200 
+24 / 684 
+167.45 / 200 
+12.58 
+1151명 (전체) 
+186.76 / 200 
+38 / 1151 
+168.51 / 200 
+11.42 
+ 
+ 
+ 
+17 
+ 
+Lectures in Univ. of Wisconsin-Madison, Dept. of Civil and Environmental Engineering (해외 강의 경험) 
+ 
+Student Evaluations on Lecturer 
+College of Engineering course and instructor evaluation (COE) forms were used by T.A. Daegu Cho as summarized below. 
+Column A represents the mean overall student response for 21 questions rating the instructor on a scale of 1 to 4, where 4 is 
+the highest. The maximum value in Column B gives the rating of the instructor relative to others the students have 
+encountered (Questions #22).  Here the scale is 1 to 5, with 5 being the top 20th percent. Columns C and D are similar to A 
+and B, but are averages for those instructors in Civil Engineering using the COE evaluation form.  
+ 
+Brief Lecture Descriptions  
+498 Construction Project Management. I or II; 3cr. Characteristics of Construction Industry; project organizations; the 
+design and construction process; labor, material, and equipment utilization; cost estimation; construction pricing and 
+contracting; construction planning; cost control, monitoring accounting; and management systems construction. For more 
+information from http://www.engr.wisc.edu/cee/courses/cee498.html  
+578 Senior Capstone Design. I,II; 3-4 cr. The application of theoretically and academically acquired knowledge to a civil and 
+environmental engineering problem in as near "real world" as possible. P:CivEngr 310, 311, 320, 330, 340, 370, one design 
+course or cons inst. For more information from http://www.engr.wisc.edu/cee/courses/cee578.html  
+596 Constructability Analysis. I or II; 3cr. Project facility delivery process; conceptual planning, design, construction, 
+operation and maintenance, construction knowledge and experience, analysis of facility design from a construction 
+perspective, constructability concepts. For more information from http://www.engr.wisc.edu/cee/courses/cee596.html  
+ 
+Course 
+ Semester 
+Enrollment 
+Hours/Week 
+Mean A 
+Quest #22B 
+CEE 498 
+2004 Spring 
+62 
+3hrs. lecture 
+3.24 
+4.37 
+CEE 596 
+2004 Spring 
+18 
+3hrs. lecture 
+3.11 
+4.19 
+CEE 498 
+2004 Summer 
+18 
+3hrs. lecture 
+N.C. 
+N.C. 
+CEE 596 
+2004 Summer 
+7 
+2hrs. lecture 
+N.C. 
+N.C. 
+CEE 498 
+2004 Fall 
+51 
+3hrs. lecture 
+3.77 
+4.25 
+CEE 578 
+2004 Fall 
+52 
+2hrs. lecture 
+N.C. 
+N.C. 
+CEE 596 
+2004 Fall 
+20 
+3hrs. lecture 
+3.41 
+4.42 
+CEE 498 
+2005 Spring 
+39 
+3hrs. lecture 
+3.26 
+4.14 
+CEE 596 
+2005 Spring 
+16 
+3hrs. lecture 
+3.17 
+4.39 
+CEE 498 
+2005 Summer 
+12 
+3hrs. lecture 
+N.C. 
+N.C. 
+CEE 596 
+2005 Summer 
+5 
+2hrs. lecture 
+N.C. 
+N.C. 
+CEE 498 
+2005 Fall 
+61 
+3hrs. lecture 
+3.56 
+4.37 
+CEE 578 
+2005 Fall 
+47 
+2hrs. lecture 
+N.C. 
+N.C. 
+CEE 596 
+2005 Fall 
+23 
+3hrs. lecture 
+3.41 
+4.20 
+CEE 498 
+2006 Spring 
+49 
+3hrs. lecture 
+3.08 
+4.21 
+CEE 596 
+2006 Spring 
+36 
+3hrs. lecture 
+3.81 
+4.22 
+CEE 498 
+2006 Summer 
+19 
+3hrs. lecture 
+N.C. 
+N.C. 
+CEE 596 
+2006 Summer 
+6 
+2hrs. lecture 
+N.C. 
+N.C. 
+CEE 498 
+2006 Fall 
+55 
+3hrs. lecture 
+3.59 
+4.28 
+CEE 578 
+2006 Fall 
+49 
+2hrs. lecture 
+N.C. 
+N.C. 
+CEE 596 
+2006 Fall 
+18 
+3hrs. lecture 
+3.25 
+4.31 
+CEE 498 
+2007 Spring 
+42 
+3hrs. lecture 
+3.20 
+4.46 
+CEE 596 
+2007 Spring 
+21 
+3hrs. lecture 
+3.44 
+4.39 
+CEE 498 
+2007 Summer 
+11 
+3hrs. lecture 
+N.C. 
+N.C. 
+CEE 596 
+2007 Summer 
+9 
+2hrs. lecture 
+N.C. 
+N.C. 
+CEE 498 
+2007 Fall 
+57 
+3hrs. lecture 
+3.39 
+4.31 
+CEE 578 
+2007 Fall 
+42 
+2hrs. lecture 
+N.C. 
+N.C. 
+CEE 596 
+2007 Fall 
+31 
+3hrs. lecture 
+3.29 
+4.41 
+CEE 596 
+2008 Spring 
+26 
+3hrs. lecture 
+3.16 
+4.31 
+CEE 596 
+2008 Summer 
+8 
+2hrs. lecture 
+N.C. 
+N.C. 
+CEE 578 
+2008 Fall 
+44 
+2hrs. lecture 
+N.C. 
+N.C. 
+CEE 596 
+2008 Fall 
+20 
+3hrs. lecture 
+3.82 
+4.43 
+CEE 596 
+2009 Spring 
+19 
+3hrs. lecture 
+3.74 
+4.40 
+CEE 596 
+2009 Summer 
+7 
+3hrs. lecture 
+N.C. 
+N.C. 
+ 
+ 
+18 
+ 
+Appendix II. 박사학위논문초록 (Abstract of Ph.D. Thesis) 
+ 
+Construction Information Database Framework (CIDF) 
+for Integrated Cost, Schedule, and Performance Control 
+ 
+ 
+Daegu Cho 
+Under the supervision of Professor Jeffrey S. Russell 
+at the University of Wisconsin-Madison 
+ 
+ 
+- 
+ABSTRACT 
+ 
+In the information age today, information is getting more and more important. A project success is directly related 
+to continuous access to accurate project information. A construction project involves an enormous amount of 
+information becoming more complex, specific, and professional. Though a lot of effort including information 
+models, information tools, and standards has been applied in order to overcome these challenges, poor 
+communication and information chaos still remained as an unsolved assignment in the construction industry.  
+The following fundamental problems are identified within the research scope; limited focuses to a specific 
+problem and its partial solutions, lack of integrated information framework, a fixed and single-directional 
+representation method, sophisticated applications, and lack of appropriate evaluation method. Then, an inevitable 
+question remains: “how does an information system provide the right data to the right person at the right time to 
+the right place?” 
+The primary purpose of research is to provide a guideline on how to gather, record, track, share, and retrieve 
+project execution data with an accurate, efficient, and consistent manner. Research proposes a Construction 
+Information Database Framework (CIDF) that supports various management functions having multi-perspectives 
+and multi-levels of detail with a single database structure. For an effective respond to the topic, the research adopts 
+four different parts of methodology; a faceted structure composed of independent 5W1H information units (the 
+structural part); semantic-rich, multi-functional, and multi-perspectives database (the semantic part); a familiar, 
+easy-accessible, and flexible information system (the application part); and an appropriate methods to measure 
+model’s practicability (the evaluation part). These parts of methodology are integrated into one predefined 
+structure, CIDF.   
+The CIDF comprises of multi-levels of faceted information structures including a WHAT, WHERE, WHEN, 
+WHO, WHY, and HOW information unit. The CIDF allows information users to access multi-directional, multi-
+dimensional, multi-levels of detail information with relatively small amount of overhead effort comparing with 
+current information tools. The CIDF would contribute on enhancing information quality and reducing overhead 
+effort in the domain of construction execution database.  
+ 
+2017.07.22 Updated 
+ 
