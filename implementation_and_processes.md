@@ -26,3 +26,15 @@
 *   **양방향(Bi-directional) 흐름 제어 및 레이어 은폐 역학:**
     *   리스트 아이템의 인덱스 홀/짝 배열(`isImageLeft`)에 맞춰 방향 벡터가 자동으로 교차하도록 `left-to-right` / `right-to-left` 프롭스(Props) 논리를 연결했습니다.
     *   빛의 줄기가 텍스트 영역 밖 이미지 쪽을 향해 정확히 `w-[150%]` 가량 뻗어나가도록 설정하였으며, React의 렌더링 위계와 `z-index` 속성을 조율해 메인 콘텐츠의 방해 없이, 오로지 텍스트와 이미지 뒤쪽(Background) 공간 사이를 아슬아슬하게 통과하여 숨어드는 입체적 기믹을 성공적으로 연출했습니다.
+
+### 4. Vercel 프로덕션 배포 및 TypeScript 빌드 에러 무결점 해결
+*   **TypeScript Strict Mode 빌드 버그 픽스:**
+    *   Vercel 배포 과정(`npm run build`)에서 발생한 엄격한 타입 에러들을 일괄 디버깅했습니다.
+    *   `LandingPage`, `Technology`, `Research`, `Contact`, `interactive-neural-vortex-background` 등에서 사용되지 않는 `React` 및 `Three.js` 모듈 Import 코드를 완전히 제거(TS6133, TS6192 에러 해결)했습니다.
+    *   `background-paper-shaders.tsx` 내 Three.js 메쉬(Mesh) 매터리얼의 `opacity` 속성 참조를 위해 `THREE.Material`로 명시적 타입 캐스팅을 적용하여 속성 에러(TS2339)를 해결했습니다.
+    *   `demo.tsx`의 `FeatureCard` 컴포넌트 프롭스(Props)에 내재된 `any` 타입 지정을 인터페이스로 명시화하고, `hero-button-expendable.tsx` 내 존재하지 않는 CSS 스타일 속성(`wordKeep`)을 `wordBreak`으로 정정했습니다.
+*   **보안 파일 깃허브(GitHub) 제외 처리:**
+    *   `.gitignore` 파일에 `.initial_setting/` 디렉토리를 추가하여, API 키 및 서버 접속 권한이 포함된 중요 보안 문서(`.rule.md` 등)가 퍼블릭 저장소에 노출되지 않도록(Zero-Leakage) 원천 차단했습니다.
+*   **Vercel CI/CD 파이프라인 구축 및 라이브 배포 완료:**
+    *   모든 코드를 `bignine99/daegu_homepage` 저장소에 `push`하여 Vercel의 자동화 빌드 파이프라인과 연동시켰습니다.
+    *   정상적인 빌드를 확인한 후, 글로벌 CDN을 거쳐 성공적으로 웹사이트 라이브 배포를 완료했습니다. (Live URL: `https://daegu-homepage-pearl.vercel.app/technology`)

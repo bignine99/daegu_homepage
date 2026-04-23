@@ -1,15 +1,55 @@
 
 import { SocialIcons } from "../components/ui/social-icons";
+import { motion } from "framer-motion";
 
 export default function Contact() {
   return (
     <div className="w-full flex flex-col items-center bg-background min-h-[calc(100vh-80px)] pt-12 relative overflow-hidden">
+      <style>{`
+        @keyframes aurora1 {
+          0% { transform: translate(0, 0) scale(1); }
+          33% { transform: translate(15vw, 15vh) scale(1.2); }
+          66% { transform: translate(-10vw, 20vh) scale(0.8); }
+          100% { transform: translate(0, 0) scale(1); }
+        }
+        @keyframes aurora2 {
+          0% { transform: translate(0, 0) scale(1); }
+          33% { transform: translate(-15vw, 10vh) scale(0.9); }
+          66% { transform: translate(10vw, -15vh) scale(1.1); }
+          100% { transform: translate(0, 0) scale(1); }
+        }
+        @keyframes aurora3 {
+          0% { transform: translate(0, 0) scale(1); }
+          33% { transform: translate(10vw, -20vh) scale(1.15); }
+          66% { transform: translate(-15vw, 5vh) scale(0.95); }
+          100% { transform: translate(0, 0) scale(1); }
+        }
+        .animate-aurora-1 { animation: aurora1 22s ease-in-out infinite alternate; }
+        .animate-aurora-2 { animation: aurora2 25s ease-in-out infinite alternate-reverse; }
+        .animate-aurora-3 { animation: aurora3 19s ease-in-out infinite alternate; }
+        .bento-card {
+          transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .bento-card:hover {
+          transform: translateY(-4px) scale(1.02);
+          box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.3);
+          z-index: 10;
+        }
+      `}</style>
       
-      {/* Background Decorators */}
-      <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-primary/5 blur-[120px] rounded-full pointer-events-none"></div>
-      <div className="absolute bottom-0 left-0 w-[400px] h-[400px] bg-chart-1/5 blur-[100px] rounded-full pointer-events-none"></div>
+      {/* Aurora Background */}
+      <div className="fixed inset-0 pointer-events-none z-0">
+        <div className="absolute top-[-10%] left-[-10%] w-[50vw] h-[50vh] rounded-full bg-primary/20 mix-blend-screen filter blur-[120px] opacity-70 animate-aurora-1"></div>
+        <div className="absolute top-[30%] right-[-10%] w-[45vw] h-[55vh] rounded-full bg-[#0011ff]/20 mix-blend-screen filter blur-[130px] opacity-60 animate-aurora-2"></div>
+        <div className="absolute bottom-[-20%] left-[20%] w-[60vw] h-[50vh] rounded-full bg-[#00f3ff]/15 mix-blend-screen filter blur-[150px] opacity-70 animate-aurora-3"></div>
+      </div>
 
-      <div className="max-w-[1200px] px-8 md:px-16 mx-auto w-full flex flex-col gap-12 py-16 items-center relative z-10">
+      <motion.div 
+        initial={{ opacity: 0, y: 50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+        className="max-w-[1200px] px-8 md:px-16 mx-auto w-full flex flex-col gap-12 py-16 items-center relative z-10"
+      >
         <div className="text-center mb-6 w-full flex flex-col items-center">
           <div className="flex items-center gap-2 mb-4">
             <span className="material-symbols-outlined text-primary text-xl">contact_mail</span>
@@ -24,8 +64,8 @@ export default function Contact() {
           </p>
         </div>
 
-        <div className="bg-card/40 backdrop-blur-xl text-card-foreground rounded-[5px] p-10 md:p-14 shadow-2xl border border-border w-full max-w-4xl relative overflow-hidden group">
-          <div className="absolute top-0 right-0 w-32 h-32 bg-primary/10 rounded-bl-[100px] transition-all duration-700 group-hover:bg-primary/20"></div>
+        <div className="bg-card/40 backdrop-blur-xl text-card-foreground rounded-[5px] p-10 md:p-14 shadow-2xl border border-border w-full max-w-4xl relative overflow-hidden group bento-card">
+          <div className="absolute top-0 right-0 w-32 h-32 bg-primary/10 rounded-bl-[100px] transition-all duration-700 group-hover:bg-primary/30 group-hover:scale-125"></div>
           
           <div className="flex flex-col md:flex-row gap-16 justify-between items-start w-full">
             
@@ -92,7 +132,7 @@ export default function Contact() {
             </div>
 
             {/* Right Side: Social Media Interactions */}
-            <div className="flex flex-col items-center justify-center bg-background/50 border border-white/5 rounded-2xl p-10 md:w-80 shadow-inner flex-shrink-0 relative overflow-hidden">
+            <div className="flex flex-col items-center justify-center bg-background/50 border border-white/5 rounded-2xl p-10 md:w-80 shadow-inner flex-shrink-0 relative overflow-hidden hover:bg-background/80 transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_20px_40px_-15px_rgba(0,210,255,0.2)]">
                <div className="absolute top-0 left-0 w-full h-[2px] bg-gradient-to-r from-transparent via-primary/50 to-transparent"></div>
                <div className="text-center space-y-3 mb-8">
                 <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-2 border border-primary/20">
@@ -106,7 +146,7 @@ export default function Contact() {
 
           </div>
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 }

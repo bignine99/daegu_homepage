@@ -1,4 +1,4 @@
-
+import { motion } from "framer-motion";
 
 const publishedPapers = [
   { title: "A Machine Learning Approach for Factor Analysis and Scenario-Based Prediction of Construction Accidents", authors: "Ki-nam Kim, Dae-gu Cho, and Min-jae Lee", journal: "Buildings 15, no. 23 (2025): 4343, https://doi.org/10.3390/buildings15234343", year: "2025" },
@@ -35,11 +35,57 @@ const researchProjects = [
 
 export default function Research() {
   return (
-    <div className="w-full flex flex-col items-center bg-background min-h-screen pt-8">
-      <div className="max-w-[1920px] px-8 md:px-16 mx-auto w-full flex flex-col gap-16 py-12">
+    <div className="w-full flex flex-col items-center bg-background min-h-screen pt-8 relative overflow-hidden">
+      <style>{`
+        @keyframes aurora1 {
+          0% { transform: translate(0, 0) scale(1); }
+          33% { transform: translate(15vw, 15vh) scale(1.2); }
+          66% { transform: translate(-10vw, 20vh) scale(0.8); }
+          100% { transform: translate(0, 0) scale(1); }
+        }
+        @keyframes aurora2 {
+          0% { transform: translate(0, 0) scale(1); }
+          33% { transform: translate(-15vw, 10vh) scale(0.9); }
+          66% { transform: translate(10vw, -15vh) scale(1.1); }
+          100% { transform: translate(0, 0) scale(1); }
+        }
+        @keyframes aurora3 {
+          0% { transform: translate(0, 0) scale(1); }
+          33% { transform: translate(10vw, -20vh) scale(1.15); }
+          66% { transform: translate(-15vw, 5vh) scale(0.95); }
+          100% { transform: translate(0, 0) scale(1); }
+        }
+        .animate-aurora-1 { animation: aurora1 22s ease-in-out infinite alternate; }
+        .animate-aurora-2 { animation: aurora2 25s ease-in-out infinite alternate-reverse; }
+        .animate-aurora-3 { animation: aurora3 19s ease-in-out infinite alternate; }
+        .table-row-hover {
+          transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .table-row-hover:hover {
+          transform: translateY(-2px) scale(1.01);
+          box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.3);
+          z-index: 10;
+          background-color: rgba(0, 243, 255, 0.05);
+        }
+      `}</style>
+
+      {/* Aurora Background */}
+      <div className="fixed inset-0 pointer-events-none z-0">
+        <div className="absolute top-[-10%] left-[-10%] w-[50vw] h-[50vh] rounded-full bg-primary/20 mix-blend-screen filter blur-[120px] opacity-70 animate-aurora-1"></div>
+        <div className="absolute top-[30%] right-[-10%] w-[45vw] h-[55vh] rounded-full bg-[#0011ff]/20 mix-blend-screen filter blur-[130px] opacity-60 animate-aurora-2"></div>
+        <div className="absolute bottom-[-20%] left-[20%] w-[60vw] h-[50vh] rounded-full bg-[#00f3ff]/15 mix-blend-screen filter blur-[150px] opacity-70 animate-aurora-3"></div>
+      </div>
+
+      <div className="max-w-[1920px] px-8 md:px-16 mx-auto w-full flex flex-col gap-16 py-12 relative z-10">
         
         {/* Abstract Section */}
-        <section id="dissertation" className="w-full flex flex-col gap-6 relative">
+        <motion.section 
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-50px" }}
+          transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+          id="dissertation" className="w-full flex flex-col gap-6 relative"
+        >
           <div className="flex items-center gap-4 mb-2">
             <span className="material-symbols-outlined text-3xl text-primary">school</span>
             <h2 className="font-serif text-3xl font-bold text-foreground">Ph.D. Dissertation</h2>
@@ -64,10 +110,16 @@ export default function Research() {
               </p>
             </div>
           </div>
-        </section>
+        </motion.section>
 
         {/* Research Projects Section */}
-        <section id="projects" className="w-full flex flex-col gap-6 relative">
+        <motion.section 
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-50px" }}
+          transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+          id="projects" className="w-full flex flex-col gap-6 relative"
+        >
           <div className="flex items-center gap-4 mb-2">
             <span className="material-symbols-outlined text-3xl text-primary">account_tree</span>
             <h2 className="font-serif text-3xl font-bold text-foreground">Completed & In-Progress Projects</h2>
@@ -84,7 +136,7 @@ export default function Research() {
                 </thead>
                 <tbody className="divide-y divide-border/50">
                   {researchProjects.map((proj, idx) => (
-                    <tr key={idx} className="hover:bg-muted/30 transition-colors group">
+                    <tr key={idx} className="table-row-hover group relative z-0">
                       <td className="py-5 px-6 font-data-tabular text-sm text-muted-foreground font-medium align-top text-center whitespace-nowrap">
                         {proj.period}
                       </td>
@@ -106,10 +158,16 @@ export default function Research() {
               </table>
             </div>
           </div>
-        </section>
+        </motion.section>
 
         {/* Publications Section */}
-        <section id="publications" className="w-full flex flex-col gap-6 relative">
+        <motion.section 
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-50px" }}
+          transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+          id="publications" className="w-full flex flex-col gap-6 relative"
+        >
           <div className="flex items-center gap-4 mb-2">
             <span className="material-symbols-outlined text-3xl text-primary">library_books</span>
             <h2 className="font-serif text-3xl font-bold text-foreground">Published Papers</h2>
@@ -125,7 +183,7 @@ export default function Research() {
                 </thead>
                 <tbody className="divide-y divide-border/50">
                   {publishedPapers.map((paper, idx) => (
-                    <tr key={idx} className="hover:bg-muted/30 transition-colors group">
+                    <tr key={idx} className="table-row-hover group relative z-0">
                       <td className="py-5 px-6 font-data-tabular text-sm text-muted-foreground font-medium align-top text-center">
                         {paper.year}
                       </td>
@@ -140,7 +198,7 @@ export default function Research() {
               </table>
             </div>
           </div>
-        </section>
+        </motion.section>
         
       </div>
     </div>

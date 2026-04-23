@@ -1,5 +1,5 @@
-import { useState } from "react";
 import { GradientTracing } from "../components/ui/gradient-tracing";
+import { motion } from "framer-motion";
 
 const showcaseItems = [
   { img: '/images/tech/img_01.jpg', engTitle: 'Construction Data Intelligence', title: 'AI 융합 건설 데이터 엔지니어링', desc: '건설 현장에 산재해 있는 방대한 양의 정형·비정형 데이터를 하나의 중앙집중식 시스템으로 매핑하여 언제든 즉각적인 분석과 응용이 가능한 형태로 변환합니다.'},
@@ -13,8 +13,6 @@ const showcaseItems = [
 ];
 
 export default function Technology() {
-  const [hoveredImg, setHoveredImg] = useState<string | null>(null);
-
   return (
     <div className="w-full flex flex-col bg-background min-h-screen relative">
       <style>{`
@@ -43,23 +41,53 @@ export default function Technology() {
           background-clip: text !important;
           animation: pulseShine 2s linear infinite !important;
         }
+        @keyframes scanLine {
+          0% { transform: translateY(-100%); opacity: 0; }
+          10% { opacity: 1; }
+          90% { opacity: 1; }
+          100% { transform: translateY(200%); opacity: 0; }
+        }
+        .scan-line-animate {
+          animation: scanLine 2.5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+        }
+        .bento-card {
+          transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .bento-card:hover {
+          transform: translateY(-4px) scale(1.02);
+          box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.3);
+          z-index: 10;
+        }
+        @keyframes aurora1 {
+          0% { transform: translate(0, 0) scale(1); }
+          33% { transform: translate(15vw, 15vh) scale(1.2); }
+          66% { transform: translate(-10vw, 20vh) scale(0.8); }
+          100% { transform: translate(0, 0) scale(1); }
+        }
+        @keyframes aurora2 {
+          0% { transform: translate(0, 0) scale(1); }
+          33% { transform: translate(-15vw, 10vh) scale(0.9); }
+          66% { transform: translate(10vw, -15vh) scale(1.1); }
+          100% { transform: translate(0, 0) scale(1); }
+        }
+        @keyframes aurora3 {
+          0% { transform: translate(0, 0) scale(1); }
+          33% { transform: translate(10vw, -20vh) scale(1.15); }
+          66% { transform: translate(-15vw, 5vh) scale(0.95); }
+          100% { transform: translate(0, 0) scale(1); }
+        }
+        .animate-aurora-1 { animation: aurora1 22s ease-in-out infinite alternate; }
+        .animate-aurora-2 { animation: aurora2 25s ease-in-out infinite alternate-reverse; }
+        .animate-aurora-3 { animation: aurora3 19s ease-in-out infinite alternate; }
       `}</style>
       
-      {/* Fullscreen Hover Overlay */}
-      <div 
-        className={`fixed inset-0 z-[200] flex items-center justify-center bg-black/80 backdrop-blur-xl transition-all duration-700 pointer-events-none ${
-          hoveredImg ? 'opacity-100' : 'opacity-0'
-        }`}
-      >
-        <img 
-          src={hoveredImg || ''} 
-          alt="Fullscreen View" 
-          className={`w-[95vw] h-[95vh] object-contain transition-all duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] drop-shadow-[0_0_15px_rgba(0,17,255,0.7)] ${
-            hoveredImg ? 'scale-100 translate-y-0' : 'scale-90 translate-y-12'
-          }`}
-        />
+      {/* Aurora Background */}
+      <div className="fixed inset-0 overflow-hidden pointer-events-none z-0">
+        <div className="absolute top-[-10%] left-[-10%] w-[50vw] h-[50vh] rounded-full bg-primary/20 mix-blend-screen filter blur-[120px] opacity-70 animate-aurora-1"></div>
+        <div className="absolute top-[30%] right-[-10%] w-[45vw] h-[55vh] rounded-full bg-[#0011ff]/20 mix-blend-screen filter blur-[130px] opacity-60 animate-aurora-2"></div>
+        <div className="absolute bottom-[-20%] left-[20%] w-[60vw] h-[50vh] rounded-full bg-[#00f3ff]/15 mix-blend-screen filter blur-[150px] opacity-70 animate-aurora-3"></div>
       </div>
-
+      
       {/* Hero Header */}
       <div id="technology-header" className="bg-card text-card-foreground pt-32 pb-24 border-b border-border w-full relative overflow-hidden">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-primary/10 via-background to-background pointer-events-none"></div>
@@ -96,10 +124,17 @@ export default function Technology() {
         {showcaseItems.map((item, index) => {
           const isImageLeft = index % 2 !== 0;
           return (
-            <div key={index} className={`flex flex-col ${isImageLeft ? 'xl:flex-row-reverse' : 'xl:flex-row'} gap-12 xl:gap-20 items-center`}>
+            <motion.div 
+              key={index} 
+              initial={{ opacity: 0, y: 60 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: "-100px" }}
+              transition={{ duration: 0.9, ease: [0.16, 1, 0.3, 1] }}
+              className={`flex flex-col ${isImageLeft ? 'xl:flex-row-reverse' : 'xl:flex-row'} gap-12 xl:gap-20 items-center`}
+            >
               
               {/* Text Side */}
-              <div className="flex-1 w-full order-2 xl:order-1 flex flex-col justify-center relative">
+              <div className="xl:flex-[1] w-full order-2 xl:order-1 flex flex-col justify-center relative">
                 {/* Flowing Laser Effect behind the text, stretching into the image */}
                 <GradientTracing 
                   className={`hidden xl:block ${!isImageLeft ? 'left-0 w-[150%]' : 'right-0 w-[150%]'}`} 
@@ -119,17 +154,15 @@ export default function Technology() {
               </div>
 
               {/* Image Side (16:9) */}
-              <div className="flex-1 w-full order-1 xl:order-2">
-                <div 
-                  className="w-full aspect-video rounded-[5px] overflow-hidden border border-border shadow-2xl relative group bg-black flex items-center justify-center cursor-zoom-in"
-                  onMouseEnter={() => setHoveredImg(item.img)}
-                  onMouseLeave={() => setHoveredImg(null)}
-                >
-                  <div className="absolute inset-0 bg-primary/5 group-hover:bg-transparent transition-colors z-10 pointer-events-none"></div>
+              <div className="xl:flex-[2] w-full order-1 xl:order-2">
+                <div className="w-full aspect-video rounded-[5px] overflow-hidden border border-border shadow-2xl relative group bg-black flex items-center justify-center">
+                  <div className="absolute inset-0 bg-primary/5 transition-colors z-10 pointer-events-none"></div>
+                  {/* Scanning Effect */}
+                  <div className="absolute top-0 left-0 w-full h-[3px] bg-primary/80 shadow-[0_0_20px_rgba(0,243,255,0.9)] z-20 pointer-events-none opacity-0 group-hover:opacity-100 scan-line-animate"></div>
                   <img 
                     src={item.img} 
                     alt={item.title} 
-                    className="w-full h-full object-cover opacity-90 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700 ease-out" 
+                    className="w-full h-full object-cover opacity-90 transition-opacity duration-700 ease-out" 
                   />
                   <div className="absolute top-4 right-4 bg-black/60 backdrop-blur-md px-3 py-1 rounded-[5px] border border-white/10 z-20">
                      <span className="text-white/80 font-mono text-[10px] tracking-widest uppercase">System Core {(index + 1).toString().padStart(2, '0')}</span>
@@ -137,7 +170,7 @@ export default function Technology() {
                 </div>
               </div>
 
-            </div>
+            </motion.div>
           );
         })}
       </div>
@@ -158,11 +191,11 @@ export default function Technology() {
                  <h3 className="font-bold text-lg">Construction (22%)</h3>
               </div>
               <ul className="flex flex-col gap-3">
-                <li className="bg-background border border-border rounded-[5px] p-4 shadow-sm hover:border-primary transition-colors cursor-pointer group">
+                <li className="bg-background border border-border rounded-[5px] p-4 shadow-sm hover:border-primary cursor-pointer group bento-card relative overflow-hidden">
                   <h4 className="font-semibold text-sm mb-1 group-hover:text-primary transition-colors">AI-PMIS</h4>
                   <p className="text-xs text-muted-foreground line-clamp-2 mixed-font">건설사업 통합 관리 대시보드 및 EVMS 기반 원가·공정·자재 통합 관리</p>
                 </li>
-                <li className="bg-background border border-border rounded-[5px] p-4 shadow-sm hover:border-primary transition-colors cursor-pointer group">
+                <li className="bg-background border border-border rounded-[5px] p-4 shadow-sm hover:border-primary cursor-pointer group bento-card relative overflow-hidden">
                   <h4 className="font-semibold text-sm mb-1 group-hover:text-primary transition-colors">Cost Analysis AI</h4>
                   <p className="text-xs text-muted-foreground line-clamp-2 mixed-font">csv 실시간 분석 기반 공종별·동별 대화형 비용 분석 시스템</p>
                 </li>
@@ -179,11 +212,11 @@ export default function Technology() {
                  <h3 className="font-bold text-lg">Safety (19%)</h3>
               </div>
               <ul className="flex flex-col gap-3">
-                <li className="bg-background border border-border rounded-[5px] p-4 shadow-sm hover:border-chart-2 transition-colors cursor-pointer group">
+                <li className="bg-background border border-border rounded-[5px] p-4 shadow-sm hover:border-chart-2 cursor-pointer group bento-card relative overflow-hidden">
                   <h4 className="font-semibold text-sm mb-1 group-hover:text-chart-2 transition-colors">AI Safety Dashboard</h4>
                   <p className="text-xs text-muted-foreground line-clamp-2 mixed-font">2만 건 사고 데이터 기반 WBS-RBS 위험 모니터링</p>
                 </li>
-                <li className="bg-background border border-border rounded-[5px] p-4 shadow-sm hover:border-chart-2 transition-colors cursor-pointer group">
+                <li className="bg-background border border-border rounded-[5px] p-4 shadow-sm hover:border-chart-2 cursor-pointer group bento-card relative overflow-hidden">
                   <h4 className="font-semibold text-sm mb-1 group-hover:text-chart-2 transition-colors">ConSafe Insight</h4>
                   <p className="text-xs text-muted-foreground line-clamp-2 mixed-font">건설현장 사진 실시간 위험요인 분석 및 Vision AI 안전 보고서 자동 생성</p>
                 </li>
@@ -200,11 +233,11 @@ export default function Technology() {
                  <h3 className="font-bold text-lg">Architecture (11%)</h3>
               </div>
               <ul className="flex flex-col gap-3">
-                <li className="bg-background border border-border rounded-[5px] p-4 shadow-sm hover:border-chart-3 transition-colors cursor-pointer group">
+                <li className="bg-background border border-border rounded-[5px] p-4 shadow-sm hover:border-chart-3 cursor-pointer group bento-card relative overflow-hidden">
                   <h4 className="font-semibold text-sm mb-1 group-hover:text-chart-3 transition-colors">Haema Architect</h4>
                   <p className="text-xs text-muted-foreground line-clamp-2 mixed-font">AI 건축 법규 검토 및 VWorld GIS 3D 매스 자동 생성</p>
                 </li>
-                <li className="bg-background border border-border rounded-[5px] p-4 shadow-sm hover:border-chart-3 transition-colors cursor-pointer group">
+                <li className="bg-background border border-border rounded-[5px] p-4 shadow-sm hover:border-chart-3 cursor-pointer group bento-card relative overflow-hidden">
                   <h4 className="font-semibold text-sm mb-1 group-hover:text-chart-3 transition-colors">ARCHI RENDER & RM</h4>
                   <p className="text-xs text-muted-foreground line-clamp-2 mixed-font">AI 스케치 렌더링, 시네마틱 영상 생성 및 인테리어 변환 모듈</p>
                 </li>
@@ -221,11 +254,11 @@ export default function Technology() {
                  <h3 className="font-bold text-lg">Academic (19%)</h3>
               </div>
               <ul className="flex flex-col gap-3">
-                <li className="bg-background border border-border rounded-[5px] p-4 shadow-sm hover:border-chart-4 transition-colors cursor-pointer group">
+                <li className="bg-background border border-border rounded-[5px] p-4 shadow-sm hover:border-chart-4 cursor-pointer group bento-card relative overflow-hidden">
                   <h4 className="font-semibold text-sm mb-1 group-hover:text-chart-4 transition-colors">Academic Advisor AI</h4>
                   <p className="text-xs text-muted-foreground line-clamp-2 mixed-font">건축학 논문 자동 심사 (89편 DB) 및 Peer Reviewer 피드백</p>
                 </li>
-                <li className="bg-background border border-border rounded-[5px] p-4 shadow-sm hover:border-chart-4 transition-colors cursor-pointer group">
+                <li className="bg-background border border-border rounded-[5px] p-4 shadow-sm hover:border-chart-4 cursor-pointer group bento-card relative overflow-hidden">
                   <h4 className="font-semibold text-sm mb-1 group-hover:text-chart-4 transition-colors">Statistical Studio</h4>
                   <p className="text-xs text-muted-foreground line-clamp-2 mixed-font">OLS, Pareto, 이상치 시계열 탐지 등 통계 분석 워크스페이스</p>
                 </li>
@@ -242,11 +275,11 @@ export default function Technology() {
                  <h3 className="font-bold text-lg">General (29%)</h3>
               </div>
               <ul className="flex flex-col gap-3">
-                <li className="bg-background border border-border rounded-[5px] p-4 shadow-sm hover:border-chart-5 transition-colors cursor-pointer group">
+                <li className="bg-background border border-border rounded-[5px] p-4 shadow-sm hover:border-chart-5 cursor-pointer group bento-card relative overflow-hidden">
                   <h4 className="font-semibold text-sm mb-1 group-hover:text-chart-5 transition-colors">Pocket E-Book</h4>
                   <p className="text-xs text-muted-foreground line-clamp-2 mixed-font">수백 페이지 분량의 보고서를 인터랙티브 전자책 대시보드로 전환</p>
                 </li>
-                <li className="bg-background border border-border rounded-[5px] p-4 shadow-sm hover:border-chart-5 transition-colors cursor-pointer group">
+                <li className="bg-background border border-border rounded-[5px] p-4 shadow-sm hover:border-chart-5 cursor-pointer group bento-card relative overflow-hidden">
                   <h4 className="font-semibold text-sm mb-1 group-hover:text-chart-5 transition-colors">AI Scanner & HTML</h4>
                   <p className="text-xs text-muted-foreground line-clamp-2 mixed-font">OCR 기반 네트워킹 스캐너, AI 웹 빌더, HTML 안전성 병합 에이전트 등</p>
                 </li>

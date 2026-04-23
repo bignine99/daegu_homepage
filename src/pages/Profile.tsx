@@ -9,13 +9,13 @@ export default function Profile() {
     const ctx = canvas.getContext("2d");
     if (!ctx) return;
 
-    let particles: any[] = [];
-    let circuitPaths: any[] = [];
+    let particles: { x: number; y: number; vx: number; vy: number; radius: number; baseAlpha: number }[] = [];
+    let circuitPaths: { points: { x: number; y: number }[]; currentPoint: number; progress: number; speed: number; length: number }[] = [];
     let animationId: number;
 
     function getBrainPointManual(t: number, rFactor: number, centerX: number, centerY: number, scale: number) {
-      let x = Math.sin(t);
-      let y = -Math.cos(t);
+      const x = Math.sin(t);
+      const y = -Math.cos(t);
       let r = 1.0;
       if (t < Math.PI * 0.5) r = 1.15;
       else if (t < Math.PI) r = 1.0;
@@ -33,7 +33,7 @@ export default function Profile() {
       let dy = (py - cy) / (sc * 1.1);
       if (dx < 0) dx /= 1.2;
       if (dy > 0) dy /= 0.85;
-      let dist = Math.sqrt(dx * dx + dy * dy);
+      const dist = Math.sqrt(dx * dx + dy * dy);
       return dist < 0.95;
     }
 
@@ -49,14 +49,14 @@ export default function Profile() {
       circuitPaths = [];
       // Reduce the number of paths/particles slightly if performance is an issue, but we'll stick to original logic
       for (let i = 0; i < 110; i++) {
-        let startT = Math.random() * Math.PI * 2;
-        let startR = Math.random() * 0.95;
-        let s = getBrainPointManual(startT, startR, centerX, centerY, scale);
-        let path = [s];
-        let curr = { ...s };
+        const startT = Math.random() * Math.PI * 2;
+        const startR = Math.random() * 0.95;
+        const s = getBrainPointManual(startT, startR, centerX, centerY, scale);
+        const path = [s];
+        const curr = { ...s };
         for (let j = 0; j < 14; j++) {
-          let dir = Math.random() > 0.5;
-          let length = (Math.random() * 25) + 15;
+          const dir = Math.random() > 0.5;
+          const length = (Math.random() * 25) + 15;
           if (dir) curr.x += Math.random() > 0.5 ? length : -length;
           else curr.y += Math.random() > 0.5 ? length : -length;
           if (isInsideBrain(curr.x, curr.y, centerX, centerY, scale)) {
@@ -250,12 +250,12 @@ export default function Profile() {
         }
       `}</style>
       <div className="flex flex-col md:flex-row w-full max-w-[1920px] mx-auto min-h-screen">
-        <aside className="w-full md:w-[400px] bg-[#000000] border-r border-slate-800 p-7 flex flex-col md:sticky md:top-0 h-screen overflow-y-auto shrink-0 scrollbar-hide">
-          <div className="mb-10 lg:mt-8">
-            <h1 className="text-[26px] font-black neon-text tracking-tighter mb-1 mt-4">조대구, CEO, Ph.D.</h1>
+        <aside className="w-full md:w-[400px] bg-[#000000] border-r border-slate-800 p-5 md:p-6 flex flex-col md:sticky md:top-0 h-screen overflow-y-auto shrink-0 scrollbar-hide">
+          <div className="mb-6 lg:mt-2">
+            <h1 className="text-[26px] font-black neon-text tracking-tighter mb-1 mt-2">조대구, CEO, Ph.D.</h1>
             <p className="text-[12px] text-cyan-500 font-bold uppercase tracking-[0.2em]">Engineering & AI Expert</p>
           </div>
-          <div className="space-y-8">
+          <div className="space-y-5">
             <section>
               <h2 className="text-[14px] font-black text-slate-500 uppercase mb-3 border-b border-slate-800 pb-1">Education</h2>
               <div className="text-[13px] space-y-3 text-slate-300">
@@ -277,8 +277,7 @@ export default function Profile() {
               <h2 className="text-[14px] font-black text-slate-500 uppercase mb-3 border-b border-slate-800 pb-1">Current</h2>
               <div className="text-[13px] space-y-2 text-slate-300">
                 <p className="flex justify-between font-bold"><span>(주)나인티나인</span><span className="text-cyan-500">대표</span></p>
-                <p className="flex justify-between font-bold"><span>건축학회</span><span className="text-cyan-500">센터장</span></p>
-                <p className="flex justify-between font-bold"><span>이화여자/동국대/과기대</span><span className="text-cyan-500">겸임교수</span></p>
+                <p className="flex justify-between font-bold"><span>이화여대, 동국대</span><span className="text-cyan-500">겸임교수</span></p>
               </div>
             </section>
             <section>
@@ -288,12 +287,12 @@ export default function Profile() {
                </div>
             </section>
           </div>
-          <div className="mt-6 mb-4">
-             <button onClick={() => setIsModalOpen(true)} className="w-full px-4 py-3 rounded-[5px] bg-gradient-to-r from-cyan-900/40 to-cyan-800/30 border border-cyan-500/30 text-cyan-400 text-[13px] font-black uppercase tracking-wider hover:border-cyan-400/60 hover:shadow-[0_0_20px_rgba(0,210,255,0.15)] hover:-translate-y-0.5 transition-all duration-300 flex items-center justify-center gap-2">
+          <div className="mt-5 mb-3">
+             <button onClick={() => setIsModalOpen(true)} className="w-full px-4 py-2.5 rounded-[5px] bg-gradient-to-r from-cyan-900/40 to-cyan-800/30 border border-cyan-500/30 text-cyan-400 text-[13px] font-black uppercase tracking-wider hover:border-cyan-400/60 hover:shadow-[0_0_20px_rgba(0,210,255,0.15)] hover:-translate-y-0.5 transition-all duration-300 flex items-center justify-center gap-2">
                  📸 작업 사진
              </button>
           </div>
-          <div className="mt-auto pt-5 pb-5 border-t border-slate-800">
+          <div className="mt-auto pt-4 pb-3 border-t border-slate-800">
             <p className="text-[10px] text-slate-600 uppercase tracking-widest font-black mb-1">Processing Status</p>
             <p className="text-[12px] font-bold text-cyan-400 animate-pulse-fast tracking-tighter">3,000,000,000 TOKENS / MONTH ACTIVE</p>
           </div>
@@ -427,6 +426,102 @@ export default function Profile() {
               </div>
             </div>
           </section>
+
+          {/* Idea 3: Core Philosophy & Vision */}
+          <section className="mb-16 border-t border-slate-800/50 pt-16 pb-8 text-center relative">
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[300px] h-[300px] bg-cyan-500/5 blur-[120px] rounded-full pointer-events-none"></div>
+            <span className="material-symbols-outlined text-4xl text-cyan-500/30 mb-6">format_quote</span>
+            <h3 className="text-2xl md:text-4xl font-black mb-8 leading-[1.5] tracking-tight mix-blend-plus-lighter text-slate-100">
+              "건설업은 땀과 먼지의 산업이 아니라,<br />
+              <span className="text-cyan-400">가장 정밀한 데이터의 집합체</span>여야 합니다."
+            </h3>
+            <p className="text-sm md:text-base text-slate-400 max-w-3xl mx-auto leading-relaxed font-medium break-keep">
+              수십 년간 파편화된 현장의 지식과 경험을 AI가 즉시 이해하고 응용할 수 있는 지능형 자산으로 변환하는 것. <br className="hidden md:block" />
+              그것이 나인티나인이 추구하는 <strong className="text-slate-200">건설 산업의 완전한 지능화</strong>입니다.
+            </p>
+          </section>
+
+          {/* Idea 1: AI Technology Stack */}
+          <section className="mb-12">
+            <h3 className="text-[17px] font-black mb-4 border-l-[5px] border-cyan-500 pl-3 uppercase tracking-tighter">Ninetynine Core AI Stack</h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4">
+              <div className="glass-card p-6 rounded-[5px] group hover:border-cyan-500/50 transition-all cursor-default">
+                <span className="text-[10px] text-cyan-500 font-black tracking-widest uppercase mb-1 block">Logic & Reasoning</span>
+                <h4 className="text-lg font-bold text-slate-200 mb-2">Claude Opus 4.7</h4>
+                <p className="text-[11px] text-slate-400 leading-relaxed font-medium break-keep">복잡한 건설 법규 검토 및 온톨로지 구조 설계 등 고도의 추론이 필요한 에이전트의 핵심 두뇌 역할</p>
+              </div>
+              <div className="glass-card p-6 rounded-[5px] group hover:border-purple-500/50 transition-all cursor-default">
+                <span className="text-[10px] text-purple-500 font-black tracking-widest uppercase mb-1 block">Data Mining & Code</span>
+                <h4 className="text-lg font-bold text-slate-200 mb-2">Gemini 3.1 Pro</h4>
+                <p className="text-[11px] text-slate-400 leading-relaxed font-medium break-keep">대용량 CSV, JSONL 데이터 고속 파싱, 시계열 분석 및 다차원 데이터 파이프라인 자동화 봇 구축</p>
+              </div>
+              <div className="glass-card p-6 rounded-[5px] group hover:border-green-500/50 transition-all cursor-default">
+                <span className="text-[10px] text-green-500 font-black tracking-widest uppercase mb-1 block">Framework & Tools</span>
+                <h4 className="text-lg font-bold text-slate-200 mb-2">MCP & LangChain</h4>
+                <p className="text-[11px] text-slate-400 leading-relaxed font-medium break-keep">Model Context Protocol을 이용한 로컬 환경 및 RAG 기반 고차원 벡터 DB와의 완벽한 생태계 연동</p>
+              </div>
+              <div className="glass-card p-6 rounded-[5px] group hover:border-blue-500/50 transition-all cursor-default">
+                <span className="text-[10px] text-blue-500 font-black tracking-widest uppercase mb-1 block">Vibe Coding</span>
+                <h4 className="text-lg font-bold text-slate-200 mb-2">Antigravity</h4>
+                <p className="text-[11px] text-slate-400 leading-relaxed font-medium break-keep">자연어 지시만으로 React/TypeScript 기반의 프리미엄 프론트엔드를 찍어내는 무한대의 개발 생산성</p>
+              </div>
+            </div>
+          </section>
+
+          {/* Idea 2: Real-time 'Vibe Coding' Terminal */}
+          <section className="mb-12">
+            <h3 className="text-[17px] font-black mb-4 border-l-[5px] border-cyan-500 pl-3 uppercase tracking-tighter">Real-time Agent Synchronization</h3>
+            <div className="w-full h-[320px] bg-[#050505] border border-slate-800 rounded-[5px] shadow-[inset_0_0_40px_rgba(0,0,0,1)] relative overflow-hidden flex flex-col font-mono group">
+              <div className="flex items-center gap-2 px-4 py-2.5 bg-[#0a0a0c] border-b border-slate-800">
+                <div className="w-3 h-3 rounded-full bg-red-500/80"></div>
+                <div className="w-3 h-3 rounded-full bg-yellow-500/80"></div>
+                <div className="w-3 h-3 rounded-full bg-green-500/80"></div>
+                <span className="ml-3 text-[11px] text-slate-500 font-bold">bash - vibe-coding-agent - 192.168.0.1</span>
+              </div>
+              <div className="p-6 overflow-hidden flex-1 text-[13px] leading-[1.8] relative scrollbar-hide">
+                <div className="absolute inset-0 bg-[linear-gradient(rgba(0,210,255,0.03)_1px,transparent_1px)] bg-[size:100%_3px] pointer-events-none group-hover:bg-[linear-gradient(rgba(0,210,255,0.06)_1px,transparent_1px)] transition-all duration-700 z-20"></div>
+                <div className="absolute top-0 left-0 w-full h-16 bg-gradient-to-b from-[#050505] to-transparent z-10 pointer-events-none"></div>
+                <div className="absolute bottom-0 left-0 w-full h-16 bg-gradient-to-t from-[#050505] to-transparent z-10 pointer-events-none"></div>
+                
+                <div className="terminal-scroll-container w-full pt-2">
+                  {[1, 2].map((key) => (
+                    <div key={key} className="terminal-scroll-content mb-6 flex flex-col gap-1 w-full">
+                      <p className="text-slate-400 mb-2">System <span className="text-cyan-400 font-black drop-shadow-[0_0_5px_rgba(0,210,255,0.8)]">ONLINE</span>. Connected to 20 local AI nodes.</p>
+                      
+                      <p className="text-green-400 mt-2 w-full"><span className="text-slate-500">ceo@ninetynine:~$</span> /execute CM_Data_Analysis</p>
+                      <p className="text-slate-300 w-full">Agent[Claude-Opus]: Extracting 5W1H ontology from 300 pages...</p>
+                      <p className="text-yellow-400 pl-4 w-full">▸ Found 450 risk factors. Mapping to WBS-RBS database...</p>
+                      <p className="text-slate-300 w-full">Agent[Gemini-3.1]: Vectors aligned. Generating React Component...</p>
+                      <p className="text-cyan-400 font-bold mb-2 w-full drop-shadow-[0_0_5px_rgba(0,210,255,0.5)]">Running build... 100% 무결점 통과. Deployed in 1.4s.</p>
+
+                      <p className="text-green-400 mt-3 w-full"><span className="text-slate-500">ceo@ninetynine:~$</span> /run safety_pipeline_v2</p>
+                      <p className="text-slate-300 w-full">Agent[Claude-Opus]: Ingesting 20,000 incident reports...</p>
+                      <p className="text-yellow-400 pl-4 w-full">▸ Training anomaly detection model (Epoch 12/50)...</p>
+                      <p className="text-slate-300 w-full">Agent[Gemini-3.1]: Logic optimized. Code refactored with 0 lint errors.</p>
+                      <p className="text-purple-400 pl-4 mb-2 w-full">▸ Antigravity IDE: Committing changes to git repository.</p>
+
+                      <p className="text-green-400 mt-3 w-full"><span className="text-slate-500">ceo@ninetynine:~$</span> /generate 3d_arch_envelope</p>
+                      <p className="text-slate-300 w-full">Agent[Gemini-3.1]: Analyzing building laws (정북일조, 사선제한)...</p>
+                      <p className="text-yellow-400 pl-4 w-full">▸ Creating 3D Three.js mesh with setback offsets...</p>
+                      <p className="text-cyan-400 font-bold mb-2 w-full drop-shadow-[0_0_5px_rgba(0,210,255,0.5)]">WebGL Scene rendered. Canvas update complete.</p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+            <style>{`
+              .terminal-scroll-container {
+                display: flex;
+                flex-direction: column;
+                animation: scrollTerminal 1.5s linear infinite;
+              }
+              @keyframes scrollTerminal {
+                0% { transform: translateY(0); }
+                100% { transform: translateY(-50%); }
+              }
+            `}</style>
+          </section>
+
         </main>
       </div>
 

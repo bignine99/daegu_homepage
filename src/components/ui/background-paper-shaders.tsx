@@ -1,7 +1,7 @@
 "use client"
 
-import { useRef, useMemo } from "react"
-import { useFrame } from "@react-three/fiber"
+import { useRef, useMemo, useState, useEffect } from "react"
+import { useFrame, useThree } from "@react-three/fiber"
 import * as THREE from "three"
 
 // Custom shader material for advanced effects
@@ -60,6 +60,16 @@ export function ShaderPlane({
   color2?: string
 }) {
   const mesh = useRef<THREE.Mesh>(null)
+  const { gl } = useThree()
+  const [isVisible, setIsVisible] = useState(true)
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(([entry]) => {
+      setIsVisible(entry.isIntersecting)
+    })
+    if (gl.domElement) observer.observe(gl.domElement)
+    return () => observer.disconnect()
+  }, [gl])
 
   const uniforms = useMemo(
     () => ({
@@ -72,9 +82,13 @@ export function ShaderPlane({
   )
 
   useFrame((state) => {
+    if (!isVisible) return
     if (mesh.current) {
-      uniforms.time.value = state.clock.elapsedTime
-      uniforms.intensity.value = 1.0 + Math.sin(state.clock.elapsedTime * 2) * 0.3
+      const mat = mesh.current.material as THREE.ShaderMaterial;
+      if (mat && mat.uniforms) {
+        mat.uniforms.time.value = state.clock.elapsedTime;
+        mat.uniforms.intensity.value = 1.0 + Math.sin(state.clock.elapsedTime * 2) * 0.3;
+      }
     }
   })
 
@@ -100,8 +114,19 @@ export function EnergyRing({
   position?: [number, number, number]
 }) {
   const mesh = useRef<THREE.Mesh>(null)
+  const { gl } = useThree()
+  const [isVisible, setIsVisible] = useState(true)
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(([entry]) => {
+      setIsVisible(entry.isIntersecting)
+    })
+    if (gl.domElement) observer.observe(gl.domElement)
+    return () => observer.disconnect()
+  }, [gl])
 
   useFrame((state) => {
+    if (!isVisible) return
     if (mesh.current) {
       mesh.current.rotation.z = state.clock.elapsedTime
       ;(mesh.current.material as THREE.Material).opacity = 0.5 + Math.sin(state.clock.elapsedTime * 3) * 0.3
