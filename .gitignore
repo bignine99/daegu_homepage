@@ -25,3 +25,6 @@ dist-ssr
 
 # Exclude initial settings (Security)
 .initial_setting/
+
+.vercel
+.env*.local

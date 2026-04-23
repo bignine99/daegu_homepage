@@ -9,8 +9,10 @@ export default function Profile() {
     const ctx = canvas.getContext("2d");
     if (!ctx) return;
 
-    let particles: { x: number; y: number; vx: number; vy: number; radius: number; baseAlpha: number }[] = [];
-    let circuitPaths: { points: { x: number; y: number }[]; currentPoint: number; progress: number; speed: number; length: number }[] = [];
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    let particles: any[] = [];
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    let circuitPaths: any[] = [];
     let animationId: number;
 
     function getBrainPointManual(t: number, rFactor: number, centerX: number, centerY: number, scale: number) {
